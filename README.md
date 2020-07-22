@@ -26,12 +26,12 @@ An app to add and track recipes. Entries are uploaded by the user uploading a ph
 
 
 ## Planning Links
-* [[ERD](https://dbdiagram.io/d/5f18639a1e6ca02dc1a43e40)]
-* [[Wireframe](https://drive.google.com/file/d/1qB29R5iYr4zS1exdEZkzSw5Rdf1tAfFW/view?usp=sharing)]
-* [[Link to Repo with tickets](https://github.com/MandasK/grannys-recipe-box)]
+* [ERD(https://dbdiagram.io/d/5f18639a1e6ca02dc1a43e40)]
+* [Wireframe(https://drive.google.com/file/d/1qB29R5iYr4zS1exdEZkzSw5Rdf1tAfFW/view?usp=sharing)]
+* [Link to Repo with tickets(https://github.com/MandasK/grannys-recipe-box)]
 
 ## Research Planning Links or Documents 
 
 
 ## Research for any external tools/technology you plan on using (i.e. external API’S): 
-[[Tesseract github doc](https://github.com/tesseract-ocr)]
+[Tesseract github doc(https://github.com/tesseract-ocr)]
