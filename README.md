@@ -2,7 +2,7 @@
 ## Contact Info 
 * Amanda King
 * Email Address: King.Amanda.R@gmail.com
-* Github (Repo or Your Account):[[Granny's Recipe Box](https://github.com/MandasK/grannys-recipe-box)] 
+* Github (Repo or Your Account):[Granny's Recipe Box](https://github.com/MandasK/grannys-recipe-box)
 
 
 ## Granny's Recipe Box
@@ -22,13 +22,13 @@ An app to add and track recipes. Entries are uploaded by the user uploading a ph
 1. Add in photos for recipes
 1. search for keywords to find recipes
 
-## User Stories (can be integrated into MVP def)
+
 
 
 ## Planning Links
-* [ERD(https://dbdiagram.io/d/5f18639a1e6ca02dc1a43e40)]
-* [Wireframe(https://drive.google.com/file/d/1qB29R5iYr4zS1exdEZkzSw5Rdf1tAfFW/view?usp=sharing)]
-* [Link to Repo with tickets(https://github.com/MandasK/grannys-recipe-box)]
+* ERD(https://dbdiagram.io/d/5f18639a1e6ca02dc1a43e40)
+* Wireframe(https://drive.google.com/file/d/1qB29R5iYr4zS1exdEZkzSw5Rdf1tAfFW/view?usp=sharing)
+* [Link to Repo with tickets(https://github.com/MandasK/grannys-recipe-box)
 
 ## Research Planning Links or Documents 
 
