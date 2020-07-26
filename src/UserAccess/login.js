@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Alert, Card, CardBody,
-    CardTitle, CardSubtitle, Button, Form, FormGroup, Label, Input, Col, Row, FormFeedback } from 'reactstrap';
+import { Card, CardBody, CardTitle, Button, Form, FormGroup, Label, Input, Col, Row, CardImg } from 'reactstrap';
 import APIManager from '../DataCalls/APIManager';
+import './login.css'
 
 const Login = (props) => {
     const [credentials, setCredentials] = useState({userId: 0});
@@ -55,12 +55,12 @@ const Login = (props) => {
         <div className="loginContainer">
           <Card className="loginCard">
             <CardBody>
-            {/* <Card.Img 
+            <CardImg 
             className="loginLogo" 
-            src={require("../images/logo.png")} 
-            alt="imgLogo" /> */}
+            src={require("../logo.png")} 
+            alt="imgLogo" />
            <CardTitle className="loginWelcome"> 
-           Welcome to Granny's Recipe.
+           Welcome to Granny's Recipe Box.
            </CardTitle>  
             <Form onSubmit={handleLogin}>
             <Row>
@@ -85,7 +85,7 @@ const Login = (props) => {
               </FormGroup>
               <Button 
               className = "loginButton"
-              variant="custom" 
+              color="custom" 
               type="submit">
                 Login
               </Button>
@@ -93,7 +93,7 @@ const Login = (props) => {
               <Col>
               <Button
                 className = "registerButton"
-                variant= "custom"
+                color= "custom"
                 onClick={() => props.history.push("/Registration")}
                 type="submit">
                 Register New Account

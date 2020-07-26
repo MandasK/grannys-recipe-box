@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Form,FormGroup, Label, Input, CardBody, CardSubtitle, Button, Card } from "reactstrap";
+import { Form,FormGroup, Label, Input, CardBody, CardSubtitle, Button, Card, CardImg } from "reactstrap";
 import APIManager from "../DataCalls/APIManager";
+import './registration.css'
 
 const Register = (props) => {
   
@@ -68,12 +69,16 @@ const Register = (props) => {
     return (
       <div className="registerContainer">
         <Card className="registrationCard">
-        <CardBody>         
+        <CardBody>     
+        <CardImg 
+            className="loginLogo" 
+            src={require("../logo.png")} 
+            alt="imgLogo" />    
           <CardSubtitle className="registerWelcome">
             Please register below.
           </CardSubtitle>
           <Form className="registerForm" onSubmit={handleRegister}>
-            <FormGroup>
+            <FormGroup className="registerFormGroup">
               <Label className="registerLabel">Email address</Label>
               <Input
                 className="registerLogin"
@@ -83,7 +88,7 @@ const Register = (props) => {
                 placeholder="Enter Email"
               />
             </FormGroup>
-            <FormGroup>
+            <FormGroup className="registerFormGroup">
               <Label className="registerLabel">Username</Label>
               <Input
                 className="registerLogin"
@@ -93,7 +98,7 @@ const Register = (props) => {
                 placeholder="Enter Username"
               />
             </FormGroup>
-            <FormGroup>
+            <FormGroup className="registerFormGroup">
               <Label className="registerLabel">Password</Label>
               <Input
                 className="registerLogin"
@@ -103,7 +108,7 @@ const Register = (props) => {
                 placeholder="Enter Password"
               />
             </FormGroup>
-            <FormGroup>
+            <FormGroup className="registerFormGroup">
               <Label className="registerLabel">
                 Confirm Password
               </Label>
@@ -117,7 +122,7 @@ const Register = (props) => {
             <Button
               className="registrationButton"
               onClick={handleRegister}
-              variant="custom"
+              color="custom"
               type="submit"
             >
               Register
