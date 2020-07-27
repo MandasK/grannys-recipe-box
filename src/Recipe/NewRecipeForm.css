@@ -1,0 +1,44 @@
+
+
+.newRecipeForm {
+    width:50%;
+    margin: 0 auto;
+    
+}
+
+.newRecipeTitleGroup {
+    margin-top: 3rem;
+    
+}
+
+.newRecipeImageGroup {
+    margin-top: 2rem;
+    
+}
+
+.bigRecipeForm {
+    margin-top: 2rem;
+}
+
+#recipe.bigRecipeControl.form-control {
+    height: 650px !important;
+    background-color: #F8EEEA;
+     
+}
+
+.newRecipeImageLabel, .newRecipeTitleLabel, .bigRecipeLabel {
+    color: #C4828E;
+    font-size: 18px;
+}
+
+.newRecipeTitleControl.form-control, .newRecipeImageControl.form-control {
+   background-color: #F8EEEA;
+}
+
+.newRecipeFormButton.btn.btn-custom {
+    background-color: #C4828E;
+    color: #F8EEEA;
+    width: 150px;
+    font-size: 20px;
+}
+

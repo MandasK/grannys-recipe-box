@@ -19,8 +19,8 @@ const NavBar = (props) => {
   <Navbar.Toggle className="dashToggle" aria-controls="basic-navbar-nav" />
   <Navbar.Collapse className="dashCollapse" id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link className="dashlink" href="/Recipe/New">Add a New Recipe</Nav.Link>
-      <Nav.Link className="dashlinkBox" href="/Recipe/MyRecipeBox">My Recipe Box</Nav.Link>
+      <Nav.Link className="dashlink" href="/Recipes/New">Add a New Recipe</Nav.Link>
+      <Nav.Link className="dashlinkBox" href="/Recipes/MyRecipeBox">My Recipe Box</Nav.Link>
     </Nav>
     <Form className="dashForm" inline>
       <FormControl className="dashcontrol" type="text" placeholder="Search" className="mr-sm-2" />
