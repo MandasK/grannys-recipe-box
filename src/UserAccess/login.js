@@ -30,7 +30,7 @@ const Login = (props) => {
 
                if (user.password === userPasswordValue) {
                 passwordCheck = true;
-                credentials.userId = user.userId
+                credentials.userId = user.id
                 props.setUser(credentials)
                 props.history.push("/Dashboard")
                 }

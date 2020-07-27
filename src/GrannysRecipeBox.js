@@ -21,7 +21,7 @@ const GrannysRecipeBox = (props) => {
     
     const [hasUser, setHasUser] = useState(isAuthenticated());
     const setUser = (user) => {
-      sessionStorage.setItem("activeUserId", JSON.stringify(user.userId));
+      sessionStorage.setItem("activeUserID", JSON.stringify(user.userId));
       sessionStorage.setItem("activeUser", user.userName)
       setHasUser(isAuthenticated())
     }

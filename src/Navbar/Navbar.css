@@ -1,0 +1,57 @@
+.dashNav.navbar {
+    color: #c4828E;
+    margin-top: 1rem;
+}
+
+.navbar-brand {
+    color: #c4828E !important;
+    font-size: 20px;
+    
+}
+
+.dashlink {
+    margin-left: 2rem;
+    border: 2px #c4828E solid;
+    border-radius: 8px;
+    background-color: #c4828E;
+    color: #404F47 !important;
+    font-size: 18px;
+}
+
+.dashlinkBox {
+    color: #404F47 !important;
+    font-size: 18px;
+    margin-left: 7rem;
+    border: 2px #c4828E solid;
+    border-radius: 8px;
+    background-color: #c4828E;
+
+    
+}
+
+.navbar-brand {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 35px !important;
+    
+}
+.NavbarLogo {
+    margin-top: -1.5rem;
+}
+
+.mr-sm-2.form-control {
+    background-color: #F8EEEA ;
+}
+
+.navButton.btn.btn-custom {
+    background-color: #c4828E;
+    color: #404F47;
+    font-size: 18px;
+    
+}
+
+.navButtonLogout.btn.btn-custom {
+    background-color: #c4828E;
+    color: #404F47;
+    margin-left: 3rem;
+    font-size: 18px;
+}

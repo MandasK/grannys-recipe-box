@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "reactstrap";
-
-import Navbar from "../Navbar/Navbar";
+import NavBar from "../Navbar/Navbar";
 import "./dashboard.css";
 
 
@@ -23,7 +22,7 @@ const Dashboard = props => {
                 </Col>
                 {/* Navbar in this col */}
                 <Col className="navbarCol">
-                    Nav Bar
+                    <NavBar />
                 {/* <Navbar clearUser={clearUser} {...props} /> */}
                 </Col>
             </Row>

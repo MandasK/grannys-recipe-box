@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
 import GrannysRecipeBox from "./GrannysRecipeBox"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "react-notification-alert/dist/animate.css";
+
 
 
 ReactDOM.render(
