@@ -30,5 +30,15 @@
       "password": "09",
       "id": 5
     }
+  ],
+  "recipes": [
+    {
+      "userId": 1,
+      "title": "Minestrone Soup",
+      "recipe": "Ingredients\n1 tsp olive oil\n1/2 cup (80 g) chopped onion chopped\n4 cloves garlic chopped\n1/2 cup (50.5 g) chopped celery\n3/4 cup (96 g) chopped carrots\n28 oz (793.79 g) can diced tomato\n15 oz (425.24 g) can cannellini beans or other white beans or a combination of white and kidney beans\n1 cup (124 g) chopped zucchini\n3 cups (750 ml) water\n1/2 tsp (0.5 tsp) salt\n1/2 tsp (0.5 tsp) oregano\n1/4 tsp (0.25 tsp) thyme\n1/4 tsp (0.25 tsp) black pepper\n1/2 cup (118.29 g) elbows or other pasta use gluten-free if needed\n1 cup (30 g) baby spinach\n3 tbsp chopped basil\nvegan parmesan for garnish - optional\n\nInstructions\nHeat oil in a large saucepan over medium heat. Add onion and garlic and cook until translucent. 4 mins.\nAdd celery, carrots and tomato and bring to a boil. 4 to 5 mins.\nAdd the beans, zucchini, water, salt and spices and cook for 15 to 18 minutes.\nAdd 1/2 cup pasta and simmer for 12 or more minutes. Taste and adjust salt, herbs and heat.\nFold in spinach and 2 tbsp chopped basil and simmer for another minute. Serve hot garnished with fresh basil and vegan parmesan.",
+      "url": "https://www.veganricha.com/wp-content/uploads/2016/12/minestrone-veganricha-7878.jpg",
+      "user": "Amanda",
+      "id": 1
+    }
   ]
 }

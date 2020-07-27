@@ -3,6 +3,7 @@ import { Route, Redirect } from 'react-router-dom';
 import Dashboard from './DashBoard/dashboard';
 import Registration from './UserAccess/registration';
 import Login from './UserAccess/login';
+import NewRecipeForm from "./Recipe/NewRecipeForm"
 
 const ApplicationViews = props => {
     const hasUser = props.hasUser
@@ -35,6 +36,12 @@ const ApplicationViews = props => {
                     }
                 }}
             />
+        <Route 
+            path="/Recipes/New" 
+            render={(props) => {
+                return <NewRecipeForm {...props} />
+            }} 
+            />    
         </>
     )
 }
