@@ -1,6 +1,7 @@
 .dashNav.navbar {
     color: #c4828E;
     margin-top: 1rem;
+    
 }
 
 .navbar-brand {
@@ -31,7 +32,7 @@
 
 .navbar-brand {
     font-family: 'Cedarville Cursive', cursive;
-    font-size: 35px !important;
+    font-size: 22px !important;
     
 }
 .NavbarLogo {
@@ -49,9 +50,11 @@
     
 }
 
-.navButtonLogout.btn.btn-custom {
-    background-color: #c4828E;
-    color: #404F47;
-    margin-left: 3rem;
+.navButtonLogout {
+    color: #404F47 !important;
+    margin-left: 8rem;
     font-size: 18px;
+    border: 2px #c4828E solid;
+    border-radius: 8px;
+    background-color: #c4828E;
 }

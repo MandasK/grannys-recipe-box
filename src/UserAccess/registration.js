@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Form,FormGroup, Label, Input, CardBody, CardSubtitle, Button, Card, CardImg } from "reactstrap";
+import { Form, FormGroup, Label, Input, CardBody, CardSubtitle, Button, Card, CardImg } from "reactstrap";
 import APIManager from "../DataCalls/APIManager";
 import './registration.css'
 
