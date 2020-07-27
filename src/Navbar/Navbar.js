@@ -2,10 +2,15 @@ import React from 'react';
 import { Navbar, Nav, Form, Button, FormControl, Image } from 'react-bootstrap';
 import "./Navbar.css"
 
-const NavBar = () => {
+const NavBar = (props) => {
+
+  const handleLogout = () => {
+    props.clearUser();
+    ;
+  }
 
     return(
-        <Navbar className="dashNav" expand="lg">
+        <Navbar className="dashNav" expand="sm">
         <Navbar.Brand className="dashBrand" href="/Dashboard">
         <img className="NavbarLogo" src={require("../birdforlogo.png")} width="50"
         height="50" />{' '}
@@ -21,7 +26,9 @@ const NavBar = () => {
       <FormControl className="dashcontrol" type="text" placeholder="Search" className="mr-sm-2" />
       <Button className="navButton" variant="custom">Search</Button>
     </Form>
-    <Button className="navButtonLogout" variant="custom">Logout</Button>
+    <Nav className="mr-auto">
+    <Nav.Link className="navButtonLogout" onClick={handleLogout} variant="custom" href="/">Logout</Nav.Link>
+    </Nav>
   </Navbar.Collapse>
 </Navbar>
     )

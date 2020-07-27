@@ -22,7 +22,7 @@ const Dashboard = props => {
                 </Col>
                 {/* Navbar in this col */}
                 <Col className="navbarCol">
-                    <NavBar />
+                    <NavBar clearUser={clearUser} {...props} />
                 {/* <Navbar clearUser={clearUser} {...props} /> */}
                 </Col>
             </Row>
