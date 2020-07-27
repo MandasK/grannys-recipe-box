@@ -1,0 +1,51 @@
+* {
+  background-color: #404F47 ;
+  color: #F8EEEA;  
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+}
+
+.loginWelcome.card-title {
+    text-align: center !important;
+ }
+
+.loginCard {
+    width: 60rem;
+    border: 2px solid #404F47 !important;
+    border-radius: 6px !important;
+    background-color: #404f47 !important;
+    box-shadow: 0 4px 8px 0 #888888, 0 6px 20px 0 #888888
+    
+} 
+
+.loginLogo.card-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem !important
+}
+
+.loginButton.btn.btn-custom {
+    background-color: #C4828E;
+    color: #f8eeea;
+    
+}
+.registerButton.btn.btn-custom {
+    background-color: #C4828E;
+    color: #F8EEEA;
+    margin-top: 3.75rem;
+    margin-left: 3rem;
+    width: 80%;
+}
+
+.loginWelcome {
+    font-size: 22px;
+    margin-top: -3rem;
+    margin-bottom: 3rem !important;
+}

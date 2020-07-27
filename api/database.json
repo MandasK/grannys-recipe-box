@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "userName": "Amanda",
+      "email": "amanda@live.com",
+      "password": "puppy",
+      "id": 1
+    },
+    {
+      "email": "mark@mark.com",
+      "userName": "Mark",
+      "password": "87",
+      "id": 2
+    },
+    {
+      "email": "jason@jason.com",
+      "userName": "Jason",
+      "password": "jason",
+      "id": 3
+    },
+    {
+      "email": "king.amanda.r@gmail.com",
+      "userName": "Tasha",
+      "password": "nj",
+      "id": 4
+    },
+    {
+      "email": "mel@mel.com",
+      "userName": "Mel",
+      "password": "09",
+      "id": 5
+    }
+  ]
+}
