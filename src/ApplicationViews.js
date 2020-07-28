@@ -4,6 +4,7 @@ import Dashboard from './DashBoard/dashboard';
 import Registration from './UserAccess/registration';
 import Login from './UserAccess/login';
 import NewRecipeForm from "./Recipe/NewRecipeForm"
+import RecipeDetail from './Recipe/RecipeDetail';
 
 const ApplicationViews = props => {
     const hasUser = props.hasUser
@@ -41,7 +42,12 @@ const ApplicationViews = props => {
             render={(props) => {
                 return <NewRecipeForm {...props} />
             }} 
-            />    
+            />   
+        <Route 
+        path="/recipes/:recipeId(\d+)" 
+        render={(props) => {
+          return <RecipeDetail recipeId={parseInt(props.match.params.recipeId)} />
+          }} />    
         </>
     )
 }

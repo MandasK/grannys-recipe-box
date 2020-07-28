@@ -1,0 +1,12 @@
+.displayRecipeCard {
+    color:#F8EEEA;
+    margin-top: 3rem;
+    background-color: #404F47 !important;
+    width: 80%;
+}
+
+.card-image.displayRecipeCardImage {
+    width: 50%;
+    height: auto;
+}
+    

@@ -1,0 +1,24 @@
+
+
+.recipeCard {
+    
+    color: #F8EEEA;
+    width: 15rem;
+    margin-bottom: 2rem;
+    border: 2px solid #404F47 !important;
+    border-radius: 6px !important;
+    background-color: #404F47 !important;
+    box-shadow: 0 4px 8px 0 #888888, 0 6px 20px 0 #888888;
+}
+
+
+
+.goToRecipeButton.btn.btn-custom {
+    background-color: #C4828E;
+    color: #F8EEEA;
+}
+
+.recipeCardImage {
+    width: 10rem;
+    height: auto;
+}

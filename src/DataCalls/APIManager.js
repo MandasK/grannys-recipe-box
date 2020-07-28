@@ -14,6 +14,16 @@ export default {
             },
             body: JSON.stringify(obj)
         })
+    },
+
+    Get(str, id) {
+        return fetch(`${remoteURL}${str}/${id}`)
+        .then(response => response.json())
+    },
+    Delete(str, id) {
+        return fetch(`${remoteURL}${str}/${id}`, {
+            method: 'DELETE'
+        })
     }
 
 }

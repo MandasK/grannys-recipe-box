@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "reactstrap";
 import NavBar from "../Navbar/Navbar";
+import RecipeList from "../Recipe/RecipeList"
 import "./dashboard.css";
 
 
@@ -35,7 +36,7 @@ const Dashboard = props => {
                 {/* all recipes in this  Col */}
                 <Col>
                 <Container className="dashboardCol">
-                   All Recipes
+                   <RecipeList />
                 </Container>
                 
                 </Col>
