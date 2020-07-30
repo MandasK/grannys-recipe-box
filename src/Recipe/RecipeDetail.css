@@ -1,12 +1,50 @@
+.displayRecipeContainer {    
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
 .displayRecipeCard {
     color:#F8EEEA;
     margin-top: 3rem;
     background-color: #404F47 !important;
+    border: 2px solid #404F47 !important;
+    border-radius: 6px !important;
+    box-shadow: 0 4px 8px 0 #888888, 0 6px 20px 0 #888888;
     width: 80%;
+    margin: 0 auto !important;
 }
 
-.card-image.displayRecipeCardImage {
-    width: 50%;
-    height: auto;
+.displayRecipeCardImage {
+    display: block;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem !important;
+}
+
+.displayRecipeCardTitle {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 30px !important;
+    color: #C4828E;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.displayRecipeText {
+    white-space: pre-wrap;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    
+}
+
+.displayRecipeDelete.btn.btn-custom, .displayRecipeEdit.btn.btn-custom {
+    background-color: #C4828E;
+    color: #F8EEEA;
+    font-size: 20px;
+}
+
+.displayRecipeEdit.btn.btn-custom {
+    margin-left: 1rem;
 }
     

@@ -23,7 +23,16 @@ export default {
     Delete(str, id) {
         return fetch(`${remoteURL}${str}/${id}`, {
             method: 'DELETE'
-        })
-    }
+        }).then(response => response.json())
+    },
+    Update(str, editedObj) {
+        return fetch(`${remoteURL}${str}/${editedObj.id}`, {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(editedObj)
+        }).then(data => data.json());
+      }
 
 }
