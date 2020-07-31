@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ApplicationViews from './ApplicationViews';
+import NavBar from '../src/Navbar/Navbar';
 
 
 
@@ -18,6 +19,7 @@ const GrannysRecipeBox = (props) => {
         return false;
       }
     };
+
     
     const [hasUser, setHasUser] = useState(isAuthenticated());
     const setUser = (user) => {
@@ -25,10 +27,15 @@ const GrannysRecipeBox = (props) => {
       sessionStorage.setItem("activeUser", user.userName)
       setHasUser(isAuthenticated())
     }
+    const clearUser= () => {
+      sessionStorage.clear();
+      localStorage.clear();
+  }
     
     
     return (
         <>
+          <NavBar clearUser={clearUser} {...props} /> 
           <ApplicationViews setUser={setUser} hasUser={hasUser} />
         </>
     )

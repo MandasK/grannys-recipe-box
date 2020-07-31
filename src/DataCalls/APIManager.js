@@ -33,6 +33,22 @@ export default {
           },
           body: JSON.stringify(editedObj)
         }).then(data => data.json());
-      }
+      },
+    GetUsersRecipes(){
+        return fetch(`${remoteURL}recipes?userId=${sessionStorage.activeUserID}`)
+        .then(res=>res.json())
+    },
+    GetAllUserRecipes(){
+        return fetch(`${remoteURL}recipes?_expand=user`)
+        .then(res=>res.json())
+    },
+    GetUsersFriends() {
+        return fetch(`${remoteURL}users?userId=${sessionStorage.activeUserID}&expand=user`)
+        .then(response => response.json())
+    },
+    GetAllFriends(){
+        return fetch(`${remoteURL}recipes?_expand=user`)
+        .then(res=>res.json())
+    }
 
 }

@@ -27,7 +27,7 @@ const EditRecipeForm = props => {
     };
 
     APIManager.Update("recipes", editedRecipe)
-    .then(() => props.history.push("/recipes"))
+    .then(() => props.history.push(`/recipes/${props.match.params.recipeId}`))
 
     }
 

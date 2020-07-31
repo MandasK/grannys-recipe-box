@@ -3,40 +3,26 @@ import { Container, Row, Col } from "reactstrap";
 import NavBar from "../Navbar/Navbar";
 import RecipeList from "../Recipe/RecipeList"
 import "./dashboard.css";
+import FriendList from "../Friends/FriendList";
+import { withRouter } from 'react-router'
 
 
 const Dashboard = props => {
 
-    const clearUser= () => {
-        sessionStorage.clear();
-        localStorage.clear();
-    }
 
     return (
         <Container fluid className="dashboardContainer">
-            {/* user welcome and Navbar in this row */}
-            <Row className="userAndNavRow">
-                {/* User info in this Col */}
-                <Col md={2} className="userCol">
-                    Welcome, {sessionStorage.activeUser}  
-                    {/* <Image className="userIcon" src={require("../birdimg.png")} roundedCircle />                   */}
-                </Col>
-                {/* Navbar in this col */}
-                <Col className="navbarCol">
-                    <NavBar clearUser={clearUser} {...props} />
-                {/* <Navbar clearUser={clearUser} {...props} /> */}
-                </Col>
-            </Row>
+          
             {/* // Friends list andall recipe in this Row */}
             <Row className="friendsAndDashboardRow">
                 {/* Firends List in thie Col */}
-                <Col md={3} className="friendsCol">
-                    Friends List
+                <Col sm={2} className="friendsCol">
+                    <FriendList {...props} />
                 </Col>
                 {/* all recipes in this  Col */}
-                <Col>
+                <Col sm={10}>
                 <Container className="dashboardCol">
-                   <RecipeList />
+                   <RecipeList {...props} />
                 </Container>
                 
                 </Col>

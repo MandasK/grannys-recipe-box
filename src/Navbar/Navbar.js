@@ -20,12 +20,8 @@ const NavBar = (props) => {
   <Navbar.Collapse className="dashCollapse" id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link className="dashlink" href="/Recipes/New">Add a New Recipe</Nav.Link>
-      <Nav.Link className="dashlinkBox" href="/Recipes/MyRecipeBox">My Recipe Box</Nav.Link>
+      <Nav.Link className="dashlinkBox" href={`/Recipes/MyRecipeBox/${sessionStorage.activeUserID}`}>My Recipe Box</Nav.Link>
     </Nav>
-    <Form className="dashForm" inline>
-      <FormControl className="dashcontrol" type="text" placeholder="Search" className="mr-sm-2" />
-      <Button className="navButton" variant="custom">Search</Button>
-    </Form>
     <Nav className="mr-auto">
     <Nav.Link className="navButtonLogout" onClick={handleLogout} variant="custom" href="/">Logout</Nav.Link>
     </Nav>

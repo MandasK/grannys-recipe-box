@@ -5,11 +5,16 @@ import Registration from './UserAccess/registration';
 import Login from './UserAccess/login';
 import NewRecipeForm from "./Recipe/NewRecipeForm"
 import RecipeDetail from './Recipe/RecipeDetail';
-import EditRecipeForm from "./Recipe/EditRecipeForm"
+import EditRecipeForm from "./Recipe/EditRecipeForm";
+import RecipeList from './Recipe/RecipeList';
+import RecipeCard from './Recipe/NewRecipeCard';
 
 const ApplicationViews = props => {
     const hasUser = props.hasUser
     const setUser = props.setUser
+
+    const allRecipes=true;
+    const userRecipes =true
 
     return (
         <>
@@ -37,6 +42,7 @@ const ApplicationViews = props => {
                 render={props => {
                     if(hasUser){
                        return <Dashboard
+                         allRecipes={allRecipes}
                         {...props} />;
                     } else {
                        return <Redirect exact to="/" />
@@ -47,7 +53,8 @@ const ApplicationViews = props => {
              exact path="/recipes" 
              render={(props) => {
             if (hasUser) {   
-                return <Dashboard
+                return <RecipeList
+                allRecipes={allRecipes}
                  {...props} />
             } else {
                 return <Redirect to="/" />  
@@ -61,12 +68,13 @@ const ApplicationViews = props => {
                {...props} />
             }} 
             />   
-        <Route 
-        path="/recipes/:recipeId(\d+)" 
-        render={(props) => {
-          return <RecipeDetail 
-          recipeId={props.match.params.recipeId} 
-          {...props} />
+        <Route
+          exact 
+          path="/recipes/:recipeId(\d+)" 
+          render={(props) => {
+            return <RecipeDetail 
+            recipeId={props.match.params.recipeId} 
+            {...props} />
           }} 
           />   
           <Route
@@ -75,6 +83,15 @@ const ApplicationViews = props => {
               return <EditRecipeForm 
               {...props} />
           }} 
+          />
+          <Route 
+          exact
+          path="/recipes/MyRecipeBox/:userId(\d+)"
+          render = {props => {
+            return <RecipeList
+                    userRecipes={userRecipes}
+            {...props} />
+          }}
           />
         </>
     )
