@@ -9,8 +9,8 @@ const FriendCard = props => {
     return(
         <>
         <Card className="friendCard">
-            <Card.Text className="friendCardText">{props.friend.user.userName}</Card.Text>
-            <Link to={(`/recipes/MyRecipeBox${props.friend.user.userId}`)}>
+            <Card.Text className="friendCardText">{props.friend.userName}</Card.Text>
+            <Link to={(`/recipes/MyRecipeBox/${props.friend.userName}`)}>
                 <button className="goToRecipeButton">Go to Recipe</button>
                 </Link>
         </Card>

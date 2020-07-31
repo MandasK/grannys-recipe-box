@@ -43,11 +43,11 @@ export default {
         .then(res=>res.json())
     },
     GetUsersFriends() {
-        return fetch(`${remoteURL}users?userId=${sessionStorage.activeUserID}&expand=user`)
+        return fetch(`${remoteURL}friends?currentUserId=${sessionStorage.activeUserID}&expand=user`)
         .then(response => response.json())
     },
     GetAllFriends(){
-        return fetch(`${remoteURL}recipes?_expand=user`)
+        return fetch(`${remoteURL}friends?_expand=user`)
         .then(res=>res.json())
     }
 

@@ -1,36 +1,35 @@
 import React, { useState, useEffect } from 'react';
 import APIManager from "../DataCalls/APIManager";
 import "./FriendList.css";
-import AddFriendCard from './AddFriendCard';
+import FriendForm from './FriendForm';
 import FriendCard from './FriendCard';
 
 const FriendList = props => {
     const [friends, setFriends] = useState([]);
     
-    const friendUpdate = () => {
+    const getFriends = () => {
         APIManager.GetUsersFriends()
         .then((response) => {
             setFriends(response)
-            props.addFriends(response)
         })
     }
 
     useEffect(() => {
-        friendUpdate()
+        getFriends()
     }, [])
 
 
     return (
+
         <div className="friendContainer">
             <p>Looking for more Recipes?</p>
             <p>Find some fellow cooks here.</p>
-            <AddFriendCard friendUpdate={friendUpdate} newFriends={props.newFriends} />
+            <FriendForm  getFriends={getFriends} />
 
         <div className="friendCardContainer">
             {friends.map(friend => <FriendCard
              key={friend.id}
              friend={friend}
-             setFriends={friendUpdate}
              {...props} />)}
         </div>
 

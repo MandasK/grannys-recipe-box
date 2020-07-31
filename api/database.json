@@ -82,6 +82,15 @@
     }
   ],
   "friends": [
-    
+    {
+      "currentUserId": "1",
+      "userName": "Mark",
+      "id": 1
+    },
+    {
+      "currentUserId": "1",
+      "userName": "Jason",
+      "id": 2
+    }
   ]
 }
