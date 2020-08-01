@@ -84,12 +84,12 @@
   "friends": [
     {
       "currentUserId": "1",
-      "userName": "Mark",
+      "userId": "3",
       "id": 1
     },
     {
       "currentUserId": "1",
-      "userName": "Jason",
+      "userId": "4",
       "id": 2
     }
   ]

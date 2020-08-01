@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Row, Button, Form, FormControl } from "react-bootstrap";
+import { Row, Button, Form } from "react-bootstrap";
 import APIManager from '../DataCalls/APIManager';
 
 const FriendForm = props => {
@@ -19,7 +19,7 @@ const FriendForm = props => {
         stateToChange[event.target.id] = event.target.value;
         setAddFriend(stateToChange)
     };
-
+    
     const addFriends = event => {
         event.preventDefault();
         setIsLoading(true);
@@ -39,14 +39,12 @@ const FriendForm = props => {
 
     return (
         <>
-            <Row>
-            <Form className="dashForm">
-            
-            <Form.Group controlId="userName" onChange={handleFieldChange}>
-                
+        <Row className="addFriendRow">
+            <Form className="dashForm ">
+            <Form.Group controlId="userId" className="friendFormUserDrop" onChange={handleFieldChange}>
                     <Form.Control as="select">
-                        {users.map(user => <option key={user.id} value={user.userName}>{user.userName}</option>)}  
-                </Form.Control> 
+                        {users.map(user => <option key={user.id} value={user.id}>{user.userName}</option>)}  
+                    </Form.Control>
             </Form.Group>
             </Form>
             <Button
@@ -56,7 +54,7 @@ const FriendForm = props => {
               type="submit"
             >
             Add
-            </Button> 
+            </Button>
             </Row>
         </>
     )

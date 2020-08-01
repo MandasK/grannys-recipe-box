@@ -21,11 +21,20 @@ const RecipeList = props => {
         })
     }
 
+    const getRecipeUsername = () => {
+        return APIManager.GetUserRecipesByUser(recipes.userId).then((response) => {
+            setRecipes(response)
+        })
+        
+    }
+
     useEffect(() => {
         if (props.userRecipes) {
              getUserRecipesList()
+        } else if(props.recipeUserName) {
+            getRecipeUsername()
         } else if (props.allRecipes) {
-        getRecipes();
+            getRecipes();
         }
     }, []);
 

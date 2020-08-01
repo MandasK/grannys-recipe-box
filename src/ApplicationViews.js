@@ -14,7 +14,8 @@ const ApplicationViews = props => {
     const setUser = props.setUser
 
     const allRecipes=true;
-    const userRecipes =true
+    const userRecipes =true;
+    const recipeUserName=true;
 
     return (
         <>
@@ -90,6 +91,16 @@ const ApplicationViews = props => {
           render = {props => {
             return <RecipeList
                     userRecipes={userRecipes}
+            {...props} />
+          }}
+          />
+          <Route 
+          
+          path="/recipes/RecipeBox/:userId(\d+)"
+          render = {props => {
+            return <RecipeList
+            userId={props.match.params.userId}
+            recipeUserName={recipeUserName}
             {...props} />
           }}
           />

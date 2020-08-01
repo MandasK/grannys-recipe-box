@@ -6,7 +6,7 @@ import Navbar from '../Navbar/Navbar';
 import './RecipeDetail.css';
 
 const RecipeDetail = props => {
-    const [recipe, setRecipe] = useState({title: "", url: "", recipe: ""});
+    const [recipe, setRecipe] = useState({title: "", url: "", recipe: "", userId: ""});
     const [isLoading, setisLoading] = useState(true);
 
     useEffect(() => {
@@ -15,7 +15,8 @@ const RecipeDetail = props => {
                 setRecipe({
                    title: recipe.title,
                    url: recipe.url,
-                   recipe: recipe.recipe 
+                   recipe: recipe.recipe, 
+                   userId: recipe.userId
                 });
                 setisLoading(false);
             });
@@ -32,7 +33,6 @@ const RecipeDetail = props => {
         if (recipe.title !== undefined) {
         return (
             <>
-            <Navbar />
             <div className="displayRecipeContainer">
             <Card className="displayRecipeCard">
                 <Card.Body className="displayCardBody">
@@ -40,8 +40,8 @@ const RecipeDetail = props => {
                 <Card.Title className="displayRecipeCardTitle">{recipe.title}</Card.Title>
                 <Card.Text className="displayRecipeText">{recipe.recipe}</Card.Text>
                 <Row>
-                <Button className="displayRecipeDelete" variant="custom" disabled={isLoading} onClick={handleDelete}>Delete</Button>
-                <Button className="displayRecipeEdit" variant="custom" disabled={isLoading} onClick={() => props.history.push(`/recipes/${props.recipeId}/edit`)}>Edit Recipe</Button>
+                {recipe.userId === parseInt(sessionStorage.activeUserID) ? <Button className="displayRecipeDelete" variant="custom" disabled={isLoading} onClick={handleDelete}>Delete</Button> : ""}
+                {recipe.userId === parseInt(sessionStorage.activeUserID) ? <Button className="displayRecipeEdit" variant="custom" disabled={isLoading} onClick={() => props.history.push(`/recipes/${props.recipeId}/edit`)}>Edit Recipe</Button> : ""}
                 </Row>
                 </Card.Body>
                 

@@ -38,12 +38,12 @@ export default {
         return fetch(`${remoteURL}recipes?userId=${sessionStorage.activeUserID}`)
         .then(res=>res.json())
     },
-    GetAllUserRecipes(){
-        return fetch(`${remoteURL}recipes?_expand=user`)
+    GetUserRecipesByUser(userId){
+        return fetch(`${remoteURL}recipes?userId=${userId}`)
         .then(res=>res.json())
     },
     GetUsersFriends() {
-        return fetch(`${remoteURL}friends?currentUserId=${sessionStorage.activeUserID}&expand=user`)
+        return fetch(`${remoteURL}friends?currentUserId=${sessionStorage.activeUserID}&_expand=user`)
         .then(response => response.json())
     },
     GetAllFriends(){
