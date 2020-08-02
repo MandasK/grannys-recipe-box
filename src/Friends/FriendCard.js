@@ -5,14 +5,17 @@ import APIManager from '../DataCalls/APIManager';
 
 const FriendCard = props => {
 
+    const handleOnClick = (event) => {
+        sessionStorage.setItem("friendId", event.target.id)
+        props.history.push(`/recipes/RecipeBox/${sessionStorage.friendId}`)
+    } 
 
     return(
         <>
         <Card className="friendCard">
             <Card.Text className="friendCardText">{props.friend.user.userName}</Card.Text>
-            <Link to={(`/recipes/RecipeBox/${props.friend.userId}`)}>
-                <button className="goToRecipeButton">See all of </button>
-                </Link>
+            <Button className="goToRecipeButton" onClick={handleOnClick} id={props.friend.userId}>See all Recipes</Button>
+                
         </Card>
         </>
     )

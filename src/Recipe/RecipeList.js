@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Row, Col, Form, FormControl } from 'react-bootstrap';
+import { Row, Col, Form, FormControl, Container } from 'react-bootstrap';
 import APIManager from '../DataCalls/APIManager';
 import RecipeCard from './NewRecipeCard';
-import RecipeDetail from './RecipeDetail'
 
 const RecipeList = props => {
     const[recipes, setRecipes] = useState([])
@@ -22,7 +21,7 @@ const RecipeList = props => {
     }
 
     const getRecipeUsername = () => {
-        return APIManager.GetUserRecipesByUser(recipes.userId).then((response) => {
+        return APIManager.GetUserRecipesByUser(sessionStorage.friendId).then((response) => {
             setRecipes(response)
         })
         
@@ -52,14 +51,14 @@ const RecipeList = props => {
             <Form className="dashForm" inline>
                 <FormControl className="dashcontrol" type="text" placeholder="Search" onChange={event => setSearch(event.target.value)} className="mr-sm-2" />
             </Form>
-        <Row lg="3" className="recipeListContainer">
-            {filteredRecipes.map(recipe => <RecipeCard 
+            <Row sm={3}>
+            {filteredRecipes.map(recipe =><Col ><RecipeCard 
                 key={recipe.id}
                 recipe={recipe}
                 
                 {...props}
-            />)}
-        </Row>
+            /> </Col>)}
+            </Row>
         </>
     )
 }

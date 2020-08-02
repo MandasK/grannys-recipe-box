@@ -1,10 +1,9 @@
 
 
 .recipeCard {
-    
     color: #F8EEEA;
-    width: 15rem;
     margin-bottom: 2rem;
+    margin-top: 4rem;
     border: 2px solid #404F47 !important;
     border-radius: 6px !important;
     background-color: #404F47 !important;
@@ -19,6 +18,7 @@
 }
 
 .recipeCardImage {
-    width: 10rem;
-    height: auto;
+    width: 10rem !important;
+    height: 15rem;
+    margin: 1rem auto 0 auto
 }

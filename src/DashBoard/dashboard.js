@@ -20,11 +20,9 @@ const Dashboard = props => {
                     <FriendList {...props} />
                 </Col>
                 {/* all recipes in this  Col */}
-                <Col sm={10}>
-                <Container className="dashboardCol">
-                   <RecipeList {...props} />
-                </Container>
                 
+                <Col sm={8} className="dashboardCol">
+                   <RecipeList {...props} />
                 </Col>
             </Row>
             </Container>

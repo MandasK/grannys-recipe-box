@@ -3,7 +3,7 @@ import { Row, Button, Form } from "react-bootstrap";
 import APIManager from '../DataCalls/APIManager';
 
 const FriendForm = props => {
-    const [addFriend,setAddFriend] = useState({currentUserId: sessionStorage.activeUserID});
+    const [addFriend,setAddFriend] = useState({currentUserId: parseInt(sessionStorage.activeUserID)});
     const [users, setUsers] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
 
@@ -15,8 +15,8 @@ const FriendForm = props => {
     }
 
     const handleFieldChange = event => {
-        const stateToChange = {...addFriend}
-        stateToChange[event.target.id] = event.target.value;
+        const stateToChange = {...addFriend};
+        stateToChange[event.target.id] = parseInt(event.target.value)
         setAddFriend(stateToChange)
     };
     
@@ -41,8 +41,9 @@ const FriendForm = props => {
         <>
         <Row className="addFriendRow">
             <Form className="dashForm ">
-            <Form.Group controlId="userId" className="friendFormUserDrop" onChange={handleFieldChange}>
-                    <Form.Control as="select">
+            <Form.Group controlId="userId" className="friendFormUserDrop">
+                    <Form.Control as="select" onChange={handleFieldChange}>
+                        <option>Choose User</option>
                         {users.map(user => <option key={user.id} value={user.id}>{user.userName}</option>)}  
                     </Form.Control>
             </Form.Group>

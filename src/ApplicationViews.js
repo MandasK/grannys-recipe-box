@@ -99,7 +99,6 @@ const ApplicationViews = props => {
           path="/recipes/RecipeBox/:userId(\d+)"
           render = {props => {
             return <RecipeList
-            userId={props.match.params.userId}
             recipeUserName={recipeUserName}
             {...props} />
           }}

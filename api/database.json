@@ -83,14 +83,29 @@
   ],
   "friends": [
     {
-      "currentUserId": "1",
-      "userId": "3",
-      "id": 1
+      "currentUserId": 3,
+      "userId": 4,
+      "id": 3
     },
     {
-      "currentUserId": "1",
-      "userId": "4",
-      "id": 2
+      "currentUserId": 3,
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "currentUserId": 3,
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "currentUserId": 1,
+      "userId": 2,
+      "id": 6
+    },
+    {
+      "currentUserId": 1,
+      "userId": 3,
+      "id": 7
     }
   ]
 }

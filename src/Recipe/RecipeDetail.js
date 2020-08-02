@@ -45,6 +45,7 @@ const RecipeDetail = props => {
                 </Row>
                 </Card.Body>
                 
+                
             </Card>
             </div>
             </>
