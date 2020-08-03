@@ -12,7 +12,7 @@
     border-radius: 6px !important;
     box-shadow: 0 4px 8px 0 #888888, 0 6px 20px 0 #888888;
     width: 80%;
-    margin: 0 auto !important;
+    margin: 0 auto 5rem auto !important;
 }
 
 .displayRecipeCardImage {
@@ -47,4 +47,32 @@
 .displayRecipeEdit.btn.btn-custom {
     margin-left: 1rem;
 }
-    
+
+.noteFooter {
+    margin-top: 2rem;
+    background-color: #404F47 !important;
+}
+
+
+.noteCard {
+    font-size: 18px;
+   
+}
+
+.noteText {
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.newNoteGroup {
+    color: #F8EEEA;
+    width: 45%;
+    margin-left: 1rem;
+}
+
+.newNoteButton.btn.btn-custom {
+    background-color: #C4828E;
+    color: #F8EEEA;
+    font-size: 18px;
+     margin: 0  auto auto 1rem ; 
+}

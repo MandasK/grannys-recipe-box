@@ -1,26 +1,42 @@
 .friendContainer {
-margin-top: 3rem;
-margin-left: 1rem;;
+margin-top: 5.5rem;
+margin-left: 2rem;;
 }
 
 .addFriendRow.row {
     margin-top: 2rem;
-    margin-left: .3rem;;
+    
 }
 
 #userId.form-control {
     background-color: #F8EEEA;
-    width: 175px;
-    font-size: 20px;
+    width: 150px;
+    font-size: 18px;
 }
 
 .addFriendButton.btn.btn-custom {
     background-color: #C4828E;
     color: #F8EEEA;
-    height: 45px;
+    height: 43px;
     margin-left: .5rem;
 }
 
 .friendCard.card {
     background-color: #404F47;
+}
+
+.friendCardText {
+    margin-top: 1rem;
+    color: #F8EEEA;
+    font-size: 20px;
+}
+
+.goToFriendRecipeButton.btn.btn-custom {
+    background-color: #C4828E;
+    color: #F8EEEA;
+   margin: 1rem 2rem;
+}
+
+.welcomeFriends {
+    font-size: 22px;
 }

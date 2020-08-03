@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
+import { Card, Button, Row } from "react-bootstrap";
 import { Link } from 'react-router-dom'
 import APIManager from '../DataCalls/APIManager';
 
@@ -12,11 +12,12 @@ const FriendCard = props => {
 
     return(
         <>
-        <Card className="friendCard">
+        <Row>
+            
             <Card.Text className="friendCardText">{props.friend.user.userName}</Card.Text>
-            <Button className="goToRecipeButton" onClick={handleOnClick} id={props.friend.userId}>See all Recipes</Button>
-                
-        </Card>
+            <Button variant="custom" className="goToFriendRecipeButton" onClick={handleOnClick} id={props.friend.userId}>See all Recipes</Button>
+            
+        </Row>
         </>
     )
 }

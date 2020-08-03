@@ -12,7 +12,7 @@
 
 
 
-.goToRecipeButton {
+.goToRecipeButton.btn.btn-custom {
     background-color: #C4828E;
     color: #F8EEEA;
 }

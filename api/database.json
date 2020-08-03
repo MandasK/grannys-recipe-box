@@ -106,6 +106,45 @@
       "currentUserId": 1,
       "userId": 3,
       "id": 7
+    },
+    {
+      "currentUserId": 1,
+      "userId": 5,
+      "id": 8
+    }
+  ],
+  "notes": [
+    {
+      "userId": 1,
+      "recipeId": 7,
+      "note": "it's great.",
+      "user": "Amanda",
+      "date": 1596405006116,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "recipeId": 7,
+      "note": "yay",
+      "user": "Amanda",
+      "date": 1596418882807,
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "recipeId": 2,
+      "note": "help",
+      "user": "Jason",
+      "date": 1596418991515,
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "recipeId": 4,
+      "note": "berry crisp",
+      "user": "Jason",
+      "date": 1596419409228,
+      "id": 4
     }
   ]
 }

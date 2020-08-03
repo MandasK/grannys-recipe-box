@@ -4,7 +4,13 @@ import { Link } from "react-router-dom";
 import "./NewRecipeCard.css"
 
 
+
 const RecipeCard = props => {
+
+    const handleOnClick = event => {
+        sessionStorage.setItem("noteRecipeId", event.target.id)
+    }
+
     return (
    
             <Card className="recipeCard">
@@ -13,7 +19,7 @@ const RecipeCard = props => {
                 <Card.Title className="recipeCardTitle">{props.recipe.title}</Card.Title>
                 <Card.Text className="recipeCardText">By: {props.recipe.user}</Card.Text>
                 <Link to={(`/recipes/${props.recipe.id}`)}>
-                <Button className="goToRecipeButton">Go to Recipe</Button>
+                <Button variant="custom" className="goToRecipeButton" id={props.recipe.id} onClick={handleOnClick}>Go to Recipe</Button>
                 </Link>
                 </Card.Body>
             </Card>

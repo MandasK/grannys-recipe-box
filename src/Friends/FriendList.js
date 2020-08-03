@@ -22,7 +22,7 @@ const FriendList = props => {
     return (
 
         <div className="friendContainer">
-            Find fellow cooks below!
+            <p className="welcomeFriends">Find fellow cooks below!</p>
             <FriendForm  getFriends={getFriends} />
 
         <div className="friendCardContainer">

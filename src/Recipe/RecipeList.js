@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Row, Col, Form, FormControl, Container } from 'react-bootstrap';
 import APIManager from '../DataCalls/APIManager';
 import RecipeCard from './NewRecipeCard';
+import "./RecipeList.css"
 
 const RecipeList = props => {
     const[recipes, setRecipes] = useState([])
@@ -48,8 +49,8 @@ const RecipeList = props => {
 
     return (
             <>
-            <Form className="dashForm" inline>
-                <FormControl className="dashcontrol" type="text" placeholder="Search" onChange={event => setSearch(event.target.value)} className="mr-sm-2" />
+            <Form className="dashForm recipeListSearch">
+                <FormControl className="dashcontrol" type="text" placeholder="Search Recipes by Ingredient" onChange={event => setSearch(event.target.value)} className="mr-sm-2" />
             </Form>
             <Row sm={3}>
             {filteredRecipes.map(recipe =><Col ><RecipeCard 

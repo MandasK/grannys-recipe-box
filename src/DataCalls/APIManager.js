@@ -49,6 +49,11 @@ export default {
     GetAllFriends(){
         return fetch(`${remoteURL}friends?_expand=user`)
         .then(res=>res.json())
+    },
+
+    GetNotesWithRecipes() {
+        return fetch(`${remoteURL}notes?recipeId=${sessionStorage.noteRecipeId}&_expand=recipe`)
+        .then(res => res.json())
     }
 
 }
