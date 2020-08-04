@@ -45,7 +45,7 @@
       "id": 3,
       "title": "Minestrone Soup",
       "url": "https://www.veganricha.com/wp-content/uploads/2016/12/minestrone-veganricha-7878.jpg",
-      "recipe": "Ingredients\n\n1 tsp olive oil\n1/2 cup (80 g) chopped onion chopped\n4 cloves garlic chopped\n1/2 cup (50.5 g) chopped celery\n3/4 cup (96 g) chopped carrots\n28 oz (793.79 g) can diced tomato\n15 oz (425.24 g) can cannellini beans or other white beans or a combinationof white and kidney beans\n1 cup (124 g) chopped zucchini\n3 cups (750 ml) water\n1/2 tsp (0.5 tsp) salt\n1/2 tsp (0.5 tsp) oregano\n1/4 tsp (0.25 tsp) thyme\n1/4 tsp (0.25 tsp) black pepper\n1/2 cup (118.29 g) elbows or other pasta use gluten-free if needed\n1 cup (30 g) baby spinach\n3 tbsp chopped basil\nvegan Parmesan for garnish - optional\n\nInstructions\n\nHeat oil in a large saucepan over medium heat. Add onion and garlic and cook until translucent. 4 mins.\nAdd celery, carrots and tomato and bring to a boil. 4 to 5 mins.\nAdd the beans, zucchini, water, salt and spices and cook for 15 to 18 minutes.\nAdd 1/2 cup pasta and simmer for 12 or more minutes. Taste and adjust salt, herbs and heat.\nFold in spinach and 2 tbsp chopped basil and simmer for another minute. Serve hot garnished with fresh basil and vegan Parmesan.",
+      "recipe": "Ingredients\n\n1 tsp olive oil\n1/2 cup (80 g) chopped onion chopped\n4 cloves garlic chopped\n1/2 cup (50.5 g) chopped celery\n3/4 cup (96 g) chopped carrots\n28 oz (793.79 g) can diced tomato\n15 oz (425.24 g) can cannellini beans or other white beans or a combination of white and kidney beans\n1 cup (124 g) chopped zucchini\n3 cups (750 ml) water\n1/2 tsp (0.5 tsp) salt\n1/2 tsp (0.5 tsp) oregano\n1/4 tsp (0.25 tsp) thyme\n1/4 tsp (0.25 tsp) black pepper\n1/2 cup (118.29 g) elbows or other pasta use gluten-free if needed\n1 cup (30 g) baby spinach\n3 tbsp chopped basil\nvegan Parmesan for garnish - optional\n\nInstructions\n\nHeat oil in a large saucepan over medium heat. Add onion and garlic and cook until translucent. 4 mins.\nAdd celery, carrots and tomato and bring to a boil. 4 to 5 mins.\nAdd the beans, zucchini, water, salt and spices and cook for 15 to 18 minutes.\nAdd 1/2 cup pasta and simmer for 12 or more minutes. Taste and adjust salt, herbs and heat.\nFold in spinach and 2 tbsp chopped basil and simmer for another minute. Serve hot garnished with fresh basil and vegan Parmesan.",
       "user": "Amanda"
     },
     {
@@ -111,40 +111,37 @@
       "currentUserId": 1,
       "userId": 5,
       "id": 8
+    },
+    {
+      "currentUserId": 1,
+      "userId": 4,
+      "id": 9
     }
   ],
   "notes": [
     {
       "userId": 1,
       "recipeId": 7,
-      "note": "it's great.",
+      "note": "Loved the tater tots. Will maybe used roasted potatoes next time.",
       "user": "Amanda",
       "date": 1596405006116,
       "id": 1
     },
     {
-      "userId": 1,
-      "recipeId": 7,
-      "note": "yay",
-      "user": "Amanda",
-      "date": 1596418882807,
-      "id": 2
-    },
-    {
-      "userId": 3,
-      "recipeId": 2,
-      "note": "help",
-      "user": "Jason",
-      "date": 1596418991515,
-      "id": 3
-    },
-    {
       "userId": 3,
       "recipeId": 4,
-      "note": "berry crisp",
+      "note": "I loved the Berry Crisp. Definitely need the oven at at least 400 F to get browning, and must sit t ocool and gel up juices.",
       "user": "Jason",
       "date": 1596419409228,
       "id": 4
+    },
+    {
+      "userId": 1,
+      "recipeId": 7,
+      "note": "looking good!",
+      "user": "Amanda",
+      "date": 1596468983033,
+      "id": 5
     }
   ]
 }
