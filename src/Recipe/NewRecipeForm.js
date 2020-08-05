@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import APIManager from "../DataCalls/APIManager";
+import RecipeToOcr from './RecipeToOcr'
 import "./NewRecipeForm.css"
+
 
 const NewRecipeForm = props => {
  const [recipe, setRecipe] = useState({userId:parseInt(sessionStorage.activeUserID), title: "", recipe: "", url: "", user: sessionStorage.activeUser});
@@ -13,9 +15,13 @@ const handleFieldChange = event => {
     setRecipe(stateToChange)
 };
 
+        
+        
+
+
 const constructNewRecipe = event => {
     event.preventDefault();
-    if (recipe.title === "" || recipe.recipe === "" || recipe.url === "") {
+    if (recipe.title === "" || recipe.url === "") {
         alert("Please complete all fields")
     } else {
         setIsLoading(true);
@@ -42,15 +48,18 @@ const constructNewRecipe = event => {
             onChange={handleFieldChange}
              />
         </Form.Group>
-        <Form.Group className="bigRecipeForm" controlId="recipe">
+        {/* <Form.Group className="bigRecipeForm" controlId="recipe">
             <Form.Label className="bigRecipeLabel">Recipe</Form.Label>
             <Form.Control className="bigRecipeControl" 
             as="textarea"
             type="text"
-            placeholder="Enter Recipe Here"
+            placeholder="Enter Recipe Image URL Here"
             onChange={handleFieldChange}
              />
-        </Form.Group>
+        </Form.Group> */}
+        <RecipeToOcr {...props}/>
+        
+        
         <Button 
             className="newRecipeFormButton" 
             variant="custom" 

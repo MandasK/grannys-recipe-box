@@ -35,7 +35,6 @@ const GrannysRecipeBox = (props) => {
     
     return (
         <>
-          <NavBar clearUser={clearUser} {...props} /> 
           <ApplicationViews setUser={setUser} hasUser={hasUser} />
         </>
     )

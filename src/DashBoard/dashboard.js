@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "reactstrap";
-import NavBar from "../Navbar/Navbar";
 import RecipeList from "../Recipe/RecipeList"
 import "./dashboard.css";
 import FriendList from "../Friends/FriendList";
@@ -9,6 +8,7 @@ import { withRouter } from 'react-router'
 
 const Dashboard = props => {
 
+  
 
     return (
         <Container fluid className="dashboardContainer">

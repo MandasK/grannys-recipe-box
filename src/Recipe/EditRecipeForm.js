@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import APIManager from '../DataCalls/APIManager';
+
 import { Form, Button } from 'react-bootstrap';
 import "./NewRecipeForm.css"
 
@@ -70,6 +71,7 @@ const EditRecipeForm = props => {
             onChange={handleFieldChange}
              />
         </Form.Group>
+
         <Button 
             className="newRecipeFormButton" 
             variant="custom" 

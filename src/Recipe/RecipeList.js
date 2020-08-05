@@ -2,13 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { Row, Col, Form, FormControl, Container } from 'react-bootstrap';
 import APIManager from '../DataCalls/APIManager';
 import RecipeCard from './NewRecipeCard';
+import NavBar from '../Navbar/Navbar'
 import "./RecipeList.css"
 
 const RecipeList = props => {
     const[recipes, setRecipes] = useState([])
     const [search, setSearch] = useState("");
     const [filteredRecipes, setFilteredRecipes] = useState([]);
-
+    
     const getRecipes = () => {
         return APIManager.GetAll("recipes").then(recipesFromAPI => {
             setRecipes(recipesFromAPI)
@@ -49,6 +50,7 @@ const RecipeList = props => {
 
     return (
             <>
+            <NavBar {...props} /> 
             <Form className="dashForm recipeListSearch">
                 <FormControl className="dashcontrol" type="text" placeholder="Search Recipes by Ingredient" onChange={event => setSearch(event.target.value)} className="mr-sm-2" />
             </Form>
