@@ -1,0 +1,40 @@
+.imageContainer {
+    margin: 3rem auto;
+    color:#F8EEEA;
+}
+
+.OCRCol, .imageCol{
+   
+    margin-left: 5rem;
+}
+
+.OCRText {
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+    color: #C4828E
+}
+
+.OCRInput {
+    margin-bottom: 5rem;
+    margin-left: 6rem;
+    color:#F8EEEA;
+}
+
+.imageText {
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+    color: #C4828E
+}
+
+.imageInput {
+    margin-bottom: 5rem;
+    margin-left: 6rem;
+    color:#F8EEEA;
+}
+
+.continueRecipeButton.btn.btn-custom {
+    background-color: #C4828E;
+    color: #F8EEEA;
+    margin-left: 5rem;
+    margin-top: 10rem;
+}

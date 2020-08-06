@@ -8,7 +8,7 @@ import "./NewRecipeForm.css"
 const NewRecipeForm = props => {
     const [image, setImage] = useState([]);
     const [loading, setLoading] = useState(false)
- const [recipe, setRecipe] = useState({userId:parseInt(sessionStorage.activeUserID), title: "", recipe: sessionStorage.text, url: "", user: sessionStorage.activeUser});
+ const [recipe, setRecipe] = useState({userId:parseInt(sessionStorage.activeUserID), title: "", recipe: sessionStorage.text, url: sessionStorage.recipeImage, user: sessionStorage.activeUser});
  const [isLoading, setIsLoading] = useState(false);
 
 const handleFieldChange = event => {
@@ -45,6 +45,7 @@ const constructNewRecipe = event => {
             <Form.Label className="newRecipeImageLabel">Recipe Photo URL</Form.Label>
             <Form.Control className="newRecipeImageControl" 
             type="text" 
+            value={sessionStorage.recipeImage}
             placeholder="Enter URL to photo of recipe"
             onChange={handleFieldChange}
              />
