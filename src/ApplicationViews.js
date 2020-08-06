@@ -69,6 +69,13 @@ const ApplicationViews = props => {
               return <RecipeToOcr
                {...props} />
             }} 
+            />
+            <Route 
+            path="/recipes/NewFinish" 
+            render={(props) => {
+              return <NewRecipeForm
+               {...props} />
+            }} 
             />   
         <Route
           exact 

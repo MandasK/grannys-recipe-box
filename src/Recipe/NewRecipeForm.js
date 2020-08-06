@@ -6,16 +6,16 @@ import "./NewRecipeForm.css"
 
 
 const NewRecipeForm = props => {
- const [recipe, setRecipe] = useState({userId:parseInt(sessionStorage.activeUserID), title: "", recipe: "", url: "", user: sessionStorage.activeUser});
+    const [image, setImage] = useState([]);
+    const [loading, setLoading] = useState(false)
+ const [recipe, setRecipe] = useState({userId:parseInt(sessionStorage.activeUserID), title: "", recipe: sessionStorage.text, url: "", user: sessionStorage.activeUser});
  const [isLoading, setIsLoading] = useState(false);
 
 const handleFieldChange = event => {
     const stateToChange = {...recipe}
     stateToChange[event.target.id] = event.target.value;
     setRecipe(stateToChange)
-};
-
-        
+}; 
         
 
 
@@ -28,6 +28,7 @@ const constructNewRecipe = event => {
         APIManager.Post("recipes", recipe)
         .then(() => props.history.push("/Dashboard"))
     }
+    
 }
     return (
         <div className="recipeFormContainer">
@@ -48,16 +49,17 @@ const constructNewRecipe = event => {
             onChange={handleFieldChange}
              />
         </Form.Group>
-        {/* <Form.Group className="bigRecipeForm" controlId="recipe">
+        
+        <Form.Group className="bigRecipeForm" controlId="recipe">
             <Form.Label className="bigRecipeLabel">Recipe</Form.Label>
             <Form.Control className="bigRecipeControl" 
             as="textarea"
             type="text"
+            value={sessionStorage.text}
             placeholder="Enter Recipe Image URL Here"
             onChange={handleFieldChange}
              />
-        </Form.Group> */}
-        <RecipeToOcr {...props}/>
+        </Form.Group>
         
         
         <Button 

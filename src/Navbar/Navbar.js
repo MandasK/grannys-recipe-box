@@ -19,7 +19,7 @@ const NavBar = (props) => {
   <Navbar.Toggle className="dashToggle" aria-controls="basic-navbar-nav" />
   <Navbar.Collapse className="dashCollapse" id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link className="dashlink" href="/Recipes/New">Add a New Recipe</Nav.Link>
+      <Nav.Link className="dashlink" onClick={e => sessionStorage.removeItem('text')} href="/Recipes/New">Add a New Recipe</Nav.Link>
       <Nav.Link className="dashlinkBox" href={`/Recipes/MyRecipeBox/${sessionStorage.activeUserID}`}>My Recipe Box</Nav.Link>
     </Nav>
     <Nav className="mr-auto">

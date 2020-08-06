@@ -3,10 +3,11 @@ import { FormGroup, Label, Input } from 'reactstrap';
 import { Button } from 'react-bootstrap';
 import APIManager from '../DataCalls/APIManager';
 import Axios from 'axios';
+import { Link } from 'react-router-dom';
 
 const RecipeToOcr = props => {
     
-    const [image, setImage] = useState([]);
+    const [image, setImage] = useState({newRecipe: sessionStorage.text});
     const [loading, setLoading] = useState(false)
 
     const uploadImage = async e => {
@@ -16,7 +17,7 @@ const RecipeToOcr = props => {
         data.append('file', files[0])
         data.append('upload_preset', 'darwin')
         const res = await fetch(
-            'https://api.cloudinary.com/v1_1/kingamanda/image/upload', 
+            'https://api.cloudinary.com/v1_1/kingamandarae/image/upload', 
             {
                 method: "POST",
                 body: data
@@ -27,9 +28,10 @@ const RecipeToOcr = props => {
         let newerFile= newFile[0].fullTextAnnotation
         let newestFile= newerFile["text"]
         sessionStorage.setItem("text", newestFile)
+
+       
         setLoading(false)
     }
-    
    
     return (
         <>
@@ -43,12 +45,14 @@ const RecipeToOcr = props => {
            />
            {loading ? (
                <h6>Loading...</h6>
-           ): (
-           <img src={image} style={{width: '300px'}} /> 
-           )}
+           ): ""}
+
+            <Link to={(`/recipes/NewFinish`)}>
+                <Button variant="custom" className="goToRecipeButton">Continue</Button>
+            </Link>
        </div>
       
-       <p>{sessionStorage.text}</p>
+       
    </>
     )
 }
