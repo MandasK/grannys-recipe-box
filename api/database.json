@@ -23,12 +23,6 @@
       "userName": "Tyler",
       "password": "tyler",
       "id": 4
-    },
-    {
-      "email": "chris@chris.com",
-      "userName": "Chris",
-      "password": "chris",
-      "id": 5
     }
   ],
   "recipes": [
@@ -71,6 +65,86 @@
       "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596743799/recipeImages/ur7qfxt83dymikfaf4re.jpg",
       "user": "Amanda",
       "id": 5
+    },
+    {
+      "userId": 2,
+      "id": 6,
+      "title": "Berry Crisp",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596751767/recipeImages/gljz8qq3rxoxhh4cy7ju.jpg",
+      "recipe": "Filling:\n\nBag of berries/ fruit--I like the mixed berries from Aldi w/cherries\n1/4 cup flour\nLittle bit of sugar like 1-2tbsp or maple syrup-\nadd more flour if you go that route or it will get\nliquidy\nLemon/lime juice-just a squirt for acidity\n\nTopping:\n\n1/2 Cup butter\n1/4 cup oats\n1/4 pecans or walnuts-chop them up a bit\n1/4 cup brown sugar\n1/4 cup flour plus more as needed\n\nOven at 400 \n\nMix up all the filling ingredients together in\nbaking dish. make sure the berries are coated\nwith flour and there should be a little at the\nbottom to soak up berry juice\n\nMake sure butter is soft (vegan butter always is) mix in all the\ningredients. If it's is not crumbly then add a\nlittle more flour. You may need to add more of\neverything depending on how big the crisp is.\n\nBake for at least 30 min. I usually go for forty if\nthe berries are really frozen when it goes in.\n\nLet it rest for ten before you eat it too so the\njuices will thicken up\n",
+      "user": "Menna"
+    },
+    {
+      "userId": 2,
+      "id": 7,
+      "title": "Herby Mushroom Barley",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596751923/recipeImages/jfnq4nktsi7oekwq0oli.jpg",
+      "recipe": "Ingredients:\n\n1.5 cups pearl barley\n3 tablespoons mushroom seasoning\n4.5 cups water\n1 pound oyster mushrooms\n3 tablespoons butter\n3 shallots sliced\n2 sprigs fresh rosemary\n1/2 cup chopped parsley\n1/2 cup chopped cilantro\nJuice of half a lemon or lime\n\nDirections:\n\n1. Add barley, water, and mushroom\nseasoning to large pot. Bring to a boil.\nOnce boiling cover and simmer for 30\nminutes. Remove from heat once cooked.\nDrain if necessary.\n\n2. Heat skillet to medium high with some oil,\nadd shallots and cook til browning (5-7\nminutes). Remove from skillet.\n\n3. Add mushrooms with oil to skillet, season\nwith salt and pepper. Cook until browning\n5-7 minutes then add butter and\nrosemary. Cook until you feel like they are\ndone (for me about 10 minutes. It's really\nyour own preference.)\n\n4. Combine mushrooms, shallots, and barley together. \nMix in lemon juice, parsley, and cilantro. Serve immediately.\n",
+      "user": "Menna"
+    },
+    {
+      "userId": 2,
+      "id": 8,
+      "title": "Instant Pot Vegan Lentil Chili ",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596752170/recipeImages/p8ocpqnxkccnyomnnqds.jpg",
+      "recipe": "Ingredients\n\n• 1/4 cup (62.5 ml) water or broth\n• 1/2 (0.5 ) onion chopped\n• 4 cloves of garlic chopped\n• 1 jalapeno or 1/4 cup chopped green bell pepper\n1 cup (101 g) chopped celery\n• 1/2 cup (64 g) chopped carrots\n• 1/2 (0.5 ) red bell pepper or green bell pepper chopped\n15 oz can kidney beans or 1.5 cups cooked , or use black beans\n1/2 cup (96 g) dry red lentils quick cooking lentils (masoor dal)\n2 tsp ground cumin or a combination of cumin and coriander\n• 1 to 2 tsp paprika I use a combination of smoked paprika and sweet\n• 1 tsp oregano\n1/2 tsp (0.5 tsp) chipotle chili flakes or powder or ancho chili powder\n• 1 to 2 tsp chili powder blend chili blend not pure chili powder, optional\n• 1/2 tsp (0.5 tsp) each garlic powder and onion powder\n• 1 bay leaf optional\n• 28 oz diced tomato with juices\n1 to 2 tbsp tomato paste\n3/4 tsp (0.75 tsp) salt (less if using salted broth and beans)\n• 1.5 cups (13.23 oz) water or veggie broth\n• lemon juice to taste, cayenne\n• 1/4 cup (4 g) cilantro\n• avocado , hot sauce, vegan sour cream, chopped onion, tortilla strips, other toppings\nblack pepper for heat\n\nInstructions\n\n1. Add water or broth to the instant Pot on Saute when hot. Add onion, garlic and jalapeno. Cook for 2 minutes.\nStir frequently. Add another tbsp water to de-glaze if needed.\n2. Add the veggies and a good dash of salt and mix. Cook for another 2 minutes. (At this point you can add the\ntomatoes and cook them until tender for 3 to 4 mins, stirring occasionally. This adds a deeper flavor profile or\nfollow next step for quicker).\n3. Add the kidney beans, red lentils, spices, tomato, tomato paste, salt and water and give it a good mix to pick\nup any stuck bits. (You can also add other cooked beans at this point. Add some corn, veggies, 1/4 cup\ncoarsely chopped walnuts for texture for variation). Add 1/2 cup more water for thinner consistency or if\ntomatoes weren't as juicy.\n4. Close the lid and pressure cook for 8 to 9 minutes (Manual/Pressure Cook, high pressure). Let the pressure\nrelease naturally. Mix in 1 to 2 tsp lemon juice and half of the cilantro.\n5. Taste and adjust salt, heat and flavor and add more if needed. Serve hot garnished with chopped onion,\njalapeno, cilantro, avocado, hot sauce. See Saucepan instructions in Notes\n",
+      "user": "Menna"
+    },
+    {
+      "userId": 3,
+      "id": 9,
+      "title": "La Mère Poulard's Puffy Omelet",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596752456/recipeImages/f2v2p8duzwstxcbgubau.jpg",
+      "recipe": "Ingredients\n\n5 eggs\nI teaspoon salt\nFreshly ground pepper\n3 tablespoons unsalted butter\n\nHeat the broiler.\nIn a large stainless-steel or unlined copper\nwith the salt and pepper until mixed. Using an electric beater or a\nballoon whisk, whip the eggs until they triple in volume, 5 to 7\nbowl, whisk the eggs\nminutes.\n\nIn a 9-inch omelet pan or a nonstick frying pan, melt the butter\nover moderately high heat. Add the eggs. Cook for 1 minute then\nremove the pan from the heat for 15 seconds. Return the pan to\nthe heat for another minute. Remove from the heat for 15 seconds.\nReturn the pan to the heat until the omelet has puffed like a\nsoufflé, 30 seconds to 1 minute more.\nSet the pan on a rack just under the broiler for a few seconds-\njust until the top begins to brown lightly. The omelet should be set\nbut not dry inside.\n\nFold the omelet, tipping the pan away from you and turning\nthe edge with a spatula. Slide the omelet onto a warmed platter,\nguiding it to land folded in half. Serve as soon as possible.\nup\n",
+      "user": "Jason"
+    },
+    {
+      "userId": 3,
+      "id": 10,
+      "title": "Poached Eggs in Red Wine Sauce",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596752559/recipeImages/i6wvausw7us77te0xeba.jpg",
+      "recipe": "Ingredients\n\n5 tablespoons unsalted butter\n4 pound slab bacon, cut into lardons (page 56); or 4 slices bacon, cut\nacross into %-inch strips\n4 shallots, finely chopped\n3 garlic cloves, finely chopped\n2 leeks, white and light green parts only, thinly sliced\n2 carrots, thinly sliced\nSalt and freshly ground pepper\ncups red wine, preferably a Burgundy\n1 bouquet garnish (1 branch fresh thyme, or ½ teaspoon dried thyme leaves:\n6 parsley stems; and 1 bay leaf, tied in a bundle with kitchen string or\ncheesecloth)\n4 cup marc de Bourgogne (the local brandy) or Cognac\n2 tablespoons all-purpose flour\n\nGARNISH\n2 tablespoons unsalted butter\n4 pound button mushrooms, thinly sliced\nSalt and freshly ground pepper\n16 thin slices narrow French baguette\n1 fat garlic clove, peeled\n2 tablespoons distilled white vinegar\n8 eggs\n\nIn a medium saucepan, heat 3 tablespoons of the butter over low\nheat. Add the bacon and cook gently until golden, 5 to 8 minutes.\nRemove the bacon with a slotted spoon and set aside. To the same\npan, add the shallots, garlic, leeks, carrots, and a little salt and stir\nuntil the vegetables are evenly coated with the butter. Cover the\npan and cook over low heat, stirring occasionally, until tender, 10\nto 15 minutes.\nStir the wine into the vegetables and add the bouquet garnish.\nHeat the marc or Cognac in a small saucepan and light it. (It\nwill flare up so take care.) Pour the flaming liquor into the\nvegetable pan and shake until the flames subside. Cover the pan,\nbring to a boil, then reduce the heat to moderate and simmer for\n25 minutes.",
+      "user": "Jason"
+    },
+    {
+      "userId": 3,
+      "id": 11,
+      "title": "Garlic Bread",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596752811/recipeImages/dz7mzgudyscmczxef8ll.jpg",
+      "recipe": "INGREDIENTS\n\n• 1 Baguette/French Loaf (2 Foot Long/24\"/60cm)\n• 1/2 cup + 1 Tbsp (126g) Vegan Butter\n• 2 tsp Crushed Garlic\n• 2 tsp Fresh Basil (finely chopped)\n• 1 tsp Chives (finely chopped)\n1/2 tsp Sea Salt\n\nINSTRUCTIONS\n\nPreheat the oven to 350°F (180°C).\n Cut the baguette in half. Cut slices through each half loaf.\nMix the vegan butter, crushed garlic, basil, chives and sea salt together in\na bowl and spread inside the cut loaf on both sides of the bread and\nadding some more butter to the tops of the loaves of bread.\nWrap the loaves in tinfoil and bake for 15 minutes.\nEnjoy warm from the oven!\n",
+      "user": "Jason"
+    },
+    {
+      "userId": 4,
+      "title": "Tofu Bulgogi",
+      "recipe": "Ingredients\n• 1 package extra-firm tofu (12 to 16 oz.; used water-packed, not vacuum-packed)\n• 1/2 Asian pear (see notes)\n• 1/2 small onion\n• 4 cloves garlic\n• linch fresh ginger peeled and chopped\n• 1 green onion both green and white parts, chopped\n• 3 tbsp soy sauce or tamari\n• 2 and 1/2 tbsp coconut sugar (or brown sugar)\n• 1 tbsp gochujang, sriracha, or chili garlic paste\n1 tbsp rice vinegar\n• 1 tbsp toasted sesame oil\n• 1 pinch ground black pepper\n• 2 tbsp finely chopped carrot\nInstructions\n1. Place the drained tofu in the freezer overnight. Remove from the freezer and thaw, either at\nroom temperature on the counter, or in the microwave for a faster option.\n2. Press the tofu using towels, paper towels, or a tofu press, for at least 20 minutes. Slice the\ntofu into about 12 pieces.\nPrepare the bulgogi marinade:\n1. In a blender or food processor, blend the pear, onion, garlic, and ginger until relatively\nsmooth (some chunks are okay).\n2. Stir in the chopped green onion, soy sauce, coconut sugar, hot sauce, rice vinegar, sesame\noil, black pepper, and chopped carrot, plus water if needed to thin (it shouldn't be too thick\nor the tofu won't absorb it as well).\n3. Add the pressed tofu to a bowl or container and pour the marinade over it. Let marinate for\nup to 20 minutes (longer and it may start to fall apart).\n4. Preheat the oven to 350 degrees Fahrenheit. Place the tofu slices on a baking sheet lined\nwith parchment paper or a Silpat, lightly sprayed with oil.\n5. Bake for 15 minutes, flip over the tofu, and brush more of the marinade over it. Bake for\nanother 15 minutes. Optionally, broil for 2-3 more minutes to get the edges a little crispy.\n6. Serve hot with brown rice or another grain and cooked veggies.\n",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596753003/recipeImages/imxbyswtwommrfdpllvc.jpg",
+      "user": "Tyler",
+      "id": 12
+    },
+    {
+      "userId": 4,
+      "id": 13,
+      "title": "Vegan Thai Basil Fried Rice",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596753255/recipeImages/h8qumbz3fhpry6yzxih2.jpg",
+      "recipe": "Ingredients\n\nFor the sauce marinade:\n• 2 to 3 Tbsp low sodium tamari or soy sauce\n• 1 Tbsp water\n• 1 Tbsp or more sugar\n2 Tbsp pineapple juice or orange juice\n1/2 tsp (0.5 tsp) garlic powder\n• 1 tsp rice vinegar\n• 1 Tbsp vegan oyster sauce optional\n1 tsp molasses\n• 8 oz (226.8 g) Tempeh cubed to 1/2 inch cubes or use Tofu\n\nFor the Fried Rice:\n• 2 tsp oil\n• 5 cloves of garlic chopped\n1 to 2 hot green or red chilies finely chopped\n1/2 (0.5 ) onion thinly sliced\n1/2 (0.5 ) red bell pepper thinly sliced\n• 1/4 cup (32 g) thinly sliced carrots\n1/2 cup (62 g) other veggies like sliced zucchini mushrooms, broccoli etc\n1/2 cup (50 g) chopped green onions divided\n• 1/2 cup (12 g) thai basil leaves I chop these up for more flavor\n2 cups (316 g) or more cooked rice I use basmati\n• salt and black pepper to taste\n• black pepper or red pepper flakes for garnish\n\nInstructions\n1. If using Tempeh, steam the tempeh for 11 to 12 minutes. Drain. (optional)\n2. Mix all the sauce ingredients in a bowl. Add tempeh or tofu to marinate. (marinate for atleast 15 minutes).\n3. In a skillet, heat oil over medium high heat. When the oil is hot, add garlic and chilies and cook for a minute\nor until just turning golden. Add the bell pepper and mix in. Add onions, zucchini, carrots and other veggies.\nCook for 2 minutes.\n4. Add the sauce with the tempeh. Cover and cook for 2 to 3 minutes or until the sauce thickens slightly. Add\nhalf of the green onions and basil and mix in. Cook for a minute.\n5. Add in the rice, black pepper to taste and toss wellI. Cover and cook for 1-2 minutes. Add more soy sauce if\nneeded and mix in. Taste and adjust salt and spice. Add salt if needed. Garnish with black pepper or red\npepper flakes and green onion or cilantro. Serve hot!\n",
+      "user": "Tyler"
+    },
+    {
+      "userId": 4,
+      "id": 14,
+      "title": "Vegan Chocolate Cake Loaf",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596754152/recipeImages/v4pbf6hmb6rhis8itbis.jpg",
+      "recipe": "Ingredients\n\n2 1/3 cup (80 g) whole wheat pastry flour\n1/4 cup (31.25 g) all purpose flour\n1 Tablespoons flax seed meal\n1 teaspoon baking powder\n2 teaspoons white vinegar\n1/2 (0.5 ) medium ripe apple\n4 tablespoons high fat oil (I used 2 Tbsp organic canola oil and 2 Tbsp Coconut oil)\n5-6 tablespoons (5 tablespoons) raw sugar or equivalent jaggery or other sweetener.\n3 tablespoons cocoa powder (I have organic fair trade unsweetened non alkaline, reduce cocoa powder if you\nlike less dark cake)\n1/4 teaspoon (0.25 teaspoon) salt\n1/2 teaspoon (0.5 teaspoon) cinnamon powder\n1 teaspoon vanilla extract\n6-8 Tablespoons (6 Tablespoons) warm water or non dairy milk\nvegan chocolate chips (optional, I dint use any, you can add some to the batter for melted chips in the cake!)\n\nInstructions\n\n1. In a blender, add chopped apple, flax meal, vinegar, sugar, vanilla extract, oil and 6 Tablespoons warm water.\n2. Blend into a smooth puree and keep aside.\n3. In a bowl, mix the flours, cinnamon, salt, baking powder and cocoa powder.\n4. Add in the apple puree and mix till just about combined. If the mixture doesn't become moist and pasty , add\nmore water. The water content need depends on the water content of the apple. The batter does not need to\nbe smooth and runny.\n5. Grease a mini loaf and pour the batter in it.\n6. Top with some oats and bake in preheated oven at 350 degrees F for 20-25 minutes or until the toothpick\ninserted in the Middle comes out clean.\n7. Or top it off with some chocolate cream.. Blend some avocado, a couple of teaspoons of cocoa powder and\nmaple syrup to get a cream. Adjust sweetness and layer it on the cake!\n",
+      "user": "Tyler"
+    },
+    {
+      "userId": 1,
+      "title": "Pound Cake",
+      "recipe": "Ingredients\n• 2% cups all-purpose flour\n• 1 cup unsweetened cocoa powder\n• 1 tsp baking soda\n• V½ tsp salt\n• 1 tsp instant espresso powder\n• 1% cups (3 sticks) butter, softened\n• 22 cups sugar\n• 5 large eggs\n• 2 tsp pure vanilla extract\n• 1 cup Hood Light Sour Cream\n• 1 cup boiling water\n• Powdered sugar for dusting (optional)\nMethod\nPreheat oven to 350°F.\nGrease and flour two 9-inch loaf pans. In a medium bowl, combine the flour, cocoa\npowder, baking soda, salt and espresso powder. Reserve.\nIn a large mixing bowl, combine butter and 2% cups sugar. Beat until combined and\ncreamy. Add the eggs, one at a time, beating well after each addition. Add the\nvanilla extract and combine. On low speed, add the flour mixture, alternating in\nthirds with the sour cream. Add the boiling water and mix until just combined.\nPour equal amounts of the cake batter into the two loaf pans. Bake in lower third of\nthe oven for 45 to 55 minutes or until a knife inserted in the center comes out clean.\nAllow cakes to cool in pans for 10 minutes. Remove cakes from pans and transfer to\na wire cooling rack. Allow cakes to cool completely. Before serving, dust with sifted\npowdered sugar, if desired.\n",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596756117/recipeImages/bmy7jh9eolcu90wzcxqi.jpg",
+      "user": "Amanda",
+      "id": 15
     }
   ],
   "friends": [
@@ -85,11 +159,6 @@
       "id": 4
     },
     {
-      "currentUserId": 3,
-      "userId": 2,
-      "id": 5
-    },
-    {
       "currentUserId": 1,
       "userId": 2,
       "id": 6
@@ -101,14 +170,122 @@
     },
     {
       "currentUserId": 1,
-      "userId": 5,
+      "userId": 4,
+      "id": 9
+    },
+    {
+      "currentUserId": 4,
+      "userId": 1,
+      "id": 10
+    },
+    {
+      "currentUserId": 4,
+      "userId": 2,
+      "id": 11
+    },
+    {
+      "currentUserId": 2,
+      "userId": 4,
+      "id": 12
+    },
+    {
+      "currentUserId": 2,
+      "userId": 3,
+      "id": 13
+    },
+    {
+      "currentUserId": 2,
+      "userId": 1,
+      "id": 14
+    },
+    {
+      "currentUserId": 3,
+      "userId": 2,
+      "id": 15
+    },
+    {
+      "currentUserId": 4,
+      "userId": 3,
+      "id": 16
+    },
+    {
+      "currentUserId": 4,
+      "userId": 4,
+      "id": 17
+    }
+  ],
+  "notes": [
+    {
+      "userId": 4,
+      "recipeId": 1,
+      "note": "I can't believe there is bean juice in this, and I don't hate it.",
+      "user": "Tyler",
+      "date": 1596753452198,
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "recipeId": 3,
+      "note": "I love this, but I want more carbs. Next go around I think I'll have this with some quinoa or maybe some bread.",
+      "user": "Menna",
+      "date": 1596754820127,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "recipeId": 13,
+      "note": "I think I'll make ahead next time and make some ban chan to go with it.",
+      "user": "Menna",
+      "date": 1596755251729,
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "recipeId": 4,
+      "note": "Not of fan of cauliflower mash. I'll do regular mash next time.",
+      "user": "Jason",
+      "date": 1596755333071,
+      "id": 4
+    },
+    {
+      "userId": 3,
+      "recipeId": 8,
+      "note": "Can sub any dark bean for lentils. I like to make with black beans and kidney beans.",
+      "user": "Jason",
+      "date": 1596755379954,
+      "id": 5
+    },
+    {
+      "userId": 4,
+      "recipeId": 9,
+      "note": "Looks amazing. Will try but def add in more veggies..eggplant, tomato and onion sound good.",
+      "user": "Tyler",
+      "date": 1596755595620,
+      "id": 6
+    },
+    {
+      "userId": 4,
+      "recipeId": 11,
+      "note": "Definitely needed vegan parm added on top. Broiled for 1 min also",
+      "user": "Tyler",
+      "date": 1596755678076,
+      "id": 7
+    },
+    {
+      "userId": 4,
+      "recipeId": 6,
+      "note": "Such a classic. Absolutely cannot make without cherries.",
+      "user": "Tyler",
+      "date": 1596755727555,
       "id": 8
     },
     {
-      "currentUserId": 1,
       "userId": 4,
+      "recipeId": 14,
+      "note": "subbed vinegar and flax seed meal for 1 tbsp aquafaba and worked great.",
+      "user": "Tyler",
+      "date": 1596755773647,
       "id": 9
     }
-  ],
-  "notes": []
+  ]
 }

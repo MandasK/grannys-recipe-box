@@ -6,8 +6,8 @@ import { Redirect} from 'react-router-dom';
 const NavBar = (props) => {
 
   const handleLogout = () => {
-    props.clearUser();
-    ;
+    sessionStorage.clear();
+      localStorage.clear();
   }
 
    const handleOnClick = (event) => {

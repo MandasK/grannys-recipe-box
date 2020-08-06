@@ -51,11 +51,10 @@ const RecipeDetail = props => {
                 {recipe.userId === parseInt(sessionStorage.activeUserID) ? <Button className="displayRecipeEdit" variant="custom" disabled={isLoading} onClick={() => props.history.push(`/recipes/${props.recipeId}/edit`)}>Edit Recipe</Button> : ""}
                 </Row>
                 <Card.Footer className="noteFooter">
+                <h5>Notes</h5>
                 {parseInt(props.recipeId) === comment.recipe  ?
-                    <>
-                    <h5>Notes</h5>
                     <NotesList {...props} />
-                    </> : ""}
+                     : ""}
                 {recipe.userId === parseInt(sessionStorage.friendId) ? <NoteForm /> : ""}
                </Card.Footer>
                 </Card.Body>
