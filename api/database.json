@@ -278,6 +278,14 @@
       "user": "Tyler",
       "date": 1596755773647,
       "id": 9
+    },
+    {
+      "userId": 1,
+      "recipeId": 9,
+      "note": "Super fluffy. Definitely needs a sauce or maybe some roasted veggies to go with.",
+      "user": "Amanda",
+      "date": 1596764196276,
+      "id": 10
     }
   ]
 }

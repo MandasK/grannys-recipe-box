@@ -7,7 +7,6 @@ import NewRecipeForm from "./Recipe/NewRecipeForm"
 import RecipeDetail from './Recipe/RecipeDetail';
 import EditRecipeForm from "./Recipe/EditRecipeForm";
 import RecipeList from './Recipe/RecipeList';
-import RecipeCard from './Recipe/NewRecipeCard';
 import RecipeToOcr from './Recipe/RecipeToOcr';
 
 const ApplicationViews = props => {

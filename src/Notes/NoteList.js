@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Row } from 'react-bootstrap';
 import APIManager from '../DataCalls/APIManager';
 import NoteCard from '../Notes/NoteCard';
-import NoteForm from '../Notes/NoteForm';
-import RecipeList from '../Recipe/RecipeList';
+
 
 const NotesList = props => {
     const [notes, setNotes] = useState([]);

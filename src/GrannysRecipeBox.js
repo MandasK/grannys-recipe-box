@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import ApplicationViews from './ApplicationViews';
-import NavBar from '../src/Navbar/Navbar';
 
 
 
@@ -27,10 +26,6 @@ const GrannysRecipeBox = (props) => {
       sessionStorage.setItem("activeUser", user.userName)
       setHasUser(isAuthenticated())
     }
-    const clearUser= () => {
-      sessionStorage.clear();
-      localStorage.clear();
-  }
     
     
     return (

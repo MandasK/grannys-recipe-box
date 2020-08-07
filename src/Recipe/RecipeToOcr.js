@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
-import { FormGroup, Label, Input } from 'reactstrap';
 import { Button, Row, Col, Image } from 'react-bootstrap';
-import APIManager from '../DataCalls/APIManager';
-import Axios from 'axios';
 import { Link } from 'react-router-dom';
 import NavBar from '../Navbar/Navbar'
 import "./RecipeToOcr.css"

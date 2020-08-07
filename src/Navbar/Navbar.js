@@ -1,7 +1,6 @@
 import React from 'react';
-import { Navbar, Nav, Form, Button, FormControl, Image } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import "./Navbar.css"
-import { Redirect} from 'react-router-dom';
 
 const NavBar = (props) => {
 
@@ -20,7 +19,7 @@ const NavBar = (props) => {
     return(
         <Navbar className="dashNav" expand="sm">
         <Navbar.Brand className="dashBrand" href="/Dashboard">
-        <img className="NavbarLogo" src={require("../birdforlogo.png")} width="50"
+        <img className="NavbarLogo" src={require("../birdforlogo.png")} alt="birdlogo" width="50"
         height="50" />{' '}
         Granny's Recipe Box
         </Navbar.Brand>

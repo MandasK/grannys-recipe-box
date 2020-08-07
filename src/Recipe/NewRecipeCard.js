@@ -1,7 +1,6 @@
 import React from 'react';
-import { Image, Card, Button } from 'react-bootstrap';
+import { Card, Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
-import NavBar from '../Navbar/Navbar'
 import "./NewRecipeCard.css"
 
 
