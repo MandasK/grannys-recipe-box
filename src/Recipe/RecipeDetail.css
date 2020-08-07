@@ -42,6 +42,7 @@
     background-color: #C4828E;
     color: #F8EEEA;
     font-size: 20px;
+    margin-left: 6rem;
 }
 
 .displayRecipeEdit.btn.btn-custom {
@@ -60,7 +61,7 @@
 }
 
 .noteText {
-    margin-left: 2rem;
+    margin-left: 4.5rem;
     margin-right: 1rem;
 }
 
@@ -74,5 +75,13 @@
     background-color: #C4828E;
     color: #F8EEEA;
     font-size: 18px;
-     margin: 0  auto auto 1rem ; 
+     margin: 0  auto auto 5rem ; 
+}
+
+.noteHeadText {
+    margin-left: 3.5rem;
+}
+.newNoteControl.form-control {
+    background-color: #F8EEEA;
+    margin-left: 3.5rem;
 }
