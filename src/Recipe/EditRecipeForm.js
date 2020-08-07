@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import APIManager from '../DataCalls/APIManager';
+import NavBar from '../Navbar/Navbar'
 import { Form, Button } from 'react-bootstrap';
 import "./NewRecipeForm.css"
 
@@ -40,6 +41,8 @@ const EditRecipeForm = props => {
     }, []);
 
     return (
+        <>
+        <NavBar {...props} /> 
     <div className="recipeFormContainer">
         <Form className="newRecipeForm">
         <Form.Group className="newRecipeTitleGroup" controlId="title">
@@ -70,6 +73,7 @@ const EditRecipeForm = props => {
             onChange={handleFieldChange}
              />
         </Form.Group>
+
         <Button 
             className="newRecipeFormButton" 
             variant="custom" 
@@ -79,6 +83,7 @@ const EditRecipeForm = props => {
         </Button>
         </Form>
         </div>
+        </>
     )
 }
 

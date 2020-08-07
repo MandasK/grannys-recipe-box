@@ -8,6 +8,7 @@ import RecipeDetail from './Recipe/RecipeDetail';
 import EditRecipeForm from "./Recipe/EditRecipeForm";
 import RecipeList from './Recipe/RecipeList';
 import RecipeCard from './Recipe/NewRecipeCard';
+import RecipeToOcr from './Recipe/RecipeToOcr';
 
 const ApplicationViews = props => {
     const hasUser = props.hasUser
@@ -64,6 +65,13 @@ const ApplicationViews = props => {
             />    
         <Route 
             path="/recipes/New" 
+            render={(props) => {
+              return <RecipeToOcr
+               {...props} />
+            }} 
+            />
+            <Route 
+            path="/recipes/NewFinish" 
             render={(props) => {
               return <NewRecipeForm
                {...props} />

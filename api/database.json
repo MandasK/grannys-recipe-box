@@ -7,9 +7,9 @@
       "id": 1
     },
     {
-      "email": "mark@mark.com",
-      "userName": "Mark",
-      "password": "87",
+      "email": "mere@mere.com",
+      "userName": "Menna",
+      "password": "menna",
       "id": 2
     },
     {
@@ -19,66 +19,124 @@
       "id": 3
     },
     {
-      "email": "king.amanda.r@gmail.com",
-      "userName": "Tasha",
-      "password": "nj",
+      "email": "tyler@tyler.com",
+      "userName": "Tyler",
+      "password": "tyler",
       "id": 4
-    },
-    {
-      "email": "mel@mel.com",
-      "userName": "Mel",
-      "password": "09",
-      "id": 5
     }
   ],
   "recipes": [
     {
       "userId": 1,
-      "id": 2,
-      "title": "Crispy Vegan Smashed Potatoes with Chimichurri",
-      "url": "https://www.veganricha.com/wp-content/uploads/2019/06/Vegan-smashed-Potatoes-with-Chimichurri-veganricha-0477.jpg",
-      "recipe": "Ingredients\n\nFor the potatoes\n\n1.5 lb baby potatoes , Yukon gold or white or mix, see notes for regular size potatoes\n1 tbsp oil , olive oil or organic safflower or melted vegan butter\n1/2 tsp (0.5 tsp) coarse salt\n1/2 tsp (0.5 tsp) freshly ground black pepper\n\nFor the chimichurri\n\n1 cup (60 g) packed parsley or one bunch parsley leaves and tender stems, chopped\n1/4 cup (4 g) basil packed or use cilantro\n4 cloves (6 cloves) of raw garlic\n2 tbsp extra virgin olive oil\njuice of 1 lime\n1 tsp vinegar, apple cider or balsamic or red wine vinegar\n1/4 tsp (0.25 tsp) each salt and black pepper\n2 tbsp or more avocado for creaminess optional\n\nInstructions\n\nCook the potatoes: Add to a pressure cooker with enough water to cover the potatoes. Close the lid and pressure cook for 6 mins, let the pressure release naturally.\nSaucepan: Add potatoes and tap water(about an inch over the potatoes) to a saucepan. Bring to a boil over medium heat. Continue to cook for 25 mins or until tender. \nDrain the potatoes for 5 mins. Brush oil on baking sheet, place potatoes and press with fork or potato masher to flatten to about 1/4 inch thick.\nBrush oil on the potatoes. Sprinkle salt and pepper generously. (you can also add minced garlic and herbs). Bake at 400 deg F (205 C) for 25 to 30 mins.\nMeanwhile process the chimichurri ingredients in a food processor or blender with a few tbsp of water until coarsely blended. Taste and adjust flavor with salt, lime. \nTake the potatoes off the baking dish and serve hot, dressed with chimichurri.",
+      "id": 1,
+      "title": "Vegan Cinnamon Rolls",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596733419/recipeImages/o2nxv4mtcc7xoddvceut.jpg",
+      "recipe": "Ingredients\n\nCinnamon Rolls:\n• 3/4 cup (187.5 ml) warm-hot water\n• 1/4 cup (59.15 ml) aquafaba chickpea brine, (or use room temp non dairy yogurt or 1/4 cup coconut milk + 1.5\ntbsp flax meal. Though the rolls do best with aquafaba)\n1 tbsp sugar or other sweetener\n1 tbsp maple syrup\n1 packet active yeast or 2 1/2 tsp active yeast\n2 tbsp oil or use melted vegan butter. I usually use oil\n1 tsp nutritional yeast optional\n2.5 cups (312.5 g) or more flour I use unbleached white or a combination of white and wheat flour\n1/3 tsp (0.33 tsp) salt\n\nFilling:\n• 1 to 2 tbsp Oil or melted vegan butter\n• 1/3 cup (53.33 g) or more coconut sugar or brown sugar\n• 2 to 3 tsp cinnamon\n• 1/4 tsp (0.25 tsp) salt\n• Add some cardamom or nutmeg for variation\n\nInstructions\n\n1. Preheat the oven to 350 degrees F / 180°c. Line a 8 by 8 inch brownie pan or 9 inch pie pan with parchment.\nMix the first 5 ingredients under rolls until the sugar is mixed in. Let sit for a minute for the yeast to activate.\n2. Add in the oil, nutritional yeast and mix in. Add 2 cups flour and salt and knead. Add more flour, few tbsps at a\ntime to make a soft somewhat smooth dough. 4 to 6 mins.\n3. Roll the dough out using additional flour into a 10 by 14 inch rectangle\n4. Spray or brush oil or vegan butter on the rolled out dough. (use as much melted vegan butter as you like\n:). Sprinkle sugar, cinnamon and salt evenly. Roll the dough tightly along the longer edge to make a cylinder.\n5. Slice using a pizza cutter or floss or a serrated knife. Place the slices in a parchment lined brownie baking\npan or pie pan. Spray or brush oil on top. Cover lightly with a towel and Let the pan sit near the warm oven\nfor 15 to 20 minutes or until just about doubled. Remove the towel.\n6. Bake at 350 f / 180°c for 21 to 23 minutes or until golden on some edges. (just about starting to get golden)\n7. Let the rolls sit for a few minutes, while you make the icing or frosting of choice. Frost and serve.\n",
       "user": "Amanda"
     },
     {
       "userId": 1,
-      "id": 3,
       "title": "Minestrone Soup",
-      "url": "https://www.veganricha.com/wp-content/uploads/2016/12/minestrone-veganricha-7878.jpg",
-      "recipe": "Ingredients\n\n1 tsp olive oil\n1/2 cup (80 g) chopped onion chopped\n4 cloves garlic chopped\n1/2 cup (50.5 g) chopped celery\n3/4 cup (96 g) chopped carrots\n28 oz (793.79 g) can diced tomato\n15 oz (425.24 g) can cannellini beans or other white beans or a combination of white and kidney beans\n1 cup (124 g) chopped zucchini\n3 cups (750 ml) water\n1/2 tsp (0.5 tsp) salt\n1/2 tsp (0.5 tsp) oregano\n1/4 tsp (0.25 tsp) thyme\n1/4 tsp (0.25 tsp) black pepper\n1/2 cup (118.29 g) elbows or other pasta use gluten-free if needed\n1 cup (30 g) baby spinach\n3 tbsp chopped basil\nvegan Parmesan for garnish - optional\n\nInstructions\n\nHeat oil in a large saucepan over medium heat. Add onion and garlic and cook until translucent. 4 mins.\nAdd celery, carrots and tomato and bring to a boil. 4 to 5 mins.\nAdd the beans, zucchini, water, salt and spices and cook for 15 to 18 minutes.\nAdd 1/2 cup pasta and simmer for 12 or more minutes. Taste and adjust salt, herbs and heat.\nFold in spinach and 2 tbsp chopped basil and simmer for another minute. Serve hot garnished with fresh basil and vegan Parmesan.",
-      "user": "Amanda"
+      "recipe": "Ingredients\n• 1 tsp olive oil\n• 1/2 cup (80 g) chopped onion chopped\n• 4 cloves garlic chopped\n1/2 cup (50.5 g) chopped celery\n314 cup (96 g) chopped carrots\n• 28 oz (793.79 g) can diced tomato\n• 15 oz (425.24 g) can cannellini beans or other white beans or a combinationof white and kidney beans\n• 1 cup (124 g) chopped zucchini\n• 3 cups (750 ml) water\n1/2 tsp (0.5 tsp) salt\n1/2 tsp (0.5 tsp) oregano\n1/4 tsp (0.25 tsp) thyme\n• 1/4 tsp (0.25 tsp) black pepper\n1/2 cup (118.29 g) elbows or other pasta use gluten-free if needed\n• 1 cup (30 g) baby spinach\n• 3 tbsp chopped basil\n• vegan parmesan for garnish - optional\nInstructions\n1. Heat oil in a large saucepan over medium heat. Add onion and garlic and cook until translucent. 4 mins.\n2. Add celery, carrots and tomato and bring to a boil. 4 to 5 mins.\n3. Add the beans, zucchini, water, salt and spices and cook for 15 to 18 minutes.\n4. Add 1/2 cup pasta and simmer for 12 or more minutes. Taste and adjust salt, herbs and heat.\n5. Fold in spinach and 2 tbsp chopped basil and simmer for another minute. Serve hot garnished with fresh basil\nand vegan parmesan.\n",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596733443/recipeImages/fbhlyl7bq5oqr8x06aus.jpg",
+      "user": "Amanda",
+      "id": 2
     },
     {
       "userId": 1,
-      "id": 4,
-      "title": "Berry Crisp",
-      "url": "https://www.cookingclassy.com/wp-content/uploads/2017/07/triple-berry-crisp-8.jpg",
-      "recipe": "Ingredients\n\nFilling:\n\nBag of berries/ fruit—I like the mixed berries with cherries at aldi\n1/4 cup flour\nLittle bit of sugar like 1-2 tbsp or maple syrup-add more flour if you go that route or it will get liquidy\nLemon/lime juice-just a squirt for acidity\n\nTopping:\n\n1/2 Cup butter\n1/4 cup oats\n1/4 pecans or walnuts-chop them up a bit\n1/4 cup brown sugar\n1/4 cup flour plus more as needed\nInstructions:\n\nOven at 400\nMix up all the filling ingredients together in baking dish. I make sure the berries are coated with flour and there should be a little at the bottom to soak up berry juice\nMake sure butter is soft(vegan butter always is) mix in all the ingredients. If it’s is not crumbly then add a little more flour. You may need to add more of everything depending on how big the crisp is\nBake for at least 30 min. I usually go for forty if the berries are really frozen when it goes in. Sometime the top doesn’t brown well either so I’ll broil it for like 30 sec to a min\nLet it rest for ten before you eat it too so the juices will thicken up",
-      "user": "Amanda"
+      "title": "Herbed White Bean Chard Bowl with Pepita Parmesan",
+      "recipe": "Ingredients\n• 1 tsp oil optional\n1/4 tsp (0.25 tsp) garlic powder\n1/8 tsp (0.13 tsp) cayenne or to taste\na generous pinch of salt\n4-5 (4 - 5 ) large Rainbow chard leaves chopped, fat ribs removed.\n1 can Great Northern beans or other white beans\n1/8 tsp (0.13 tsp) salt or to taste\n1/4 tsp (0.25 tsp) each of dry thyme rosemary, garlic powder\n• Sliced tomatoes or cherry tomatoes\nlemon juice and extra virgin olive oil\nHerbed Pepita Parmesan\n1 Tbsp Pepitas pumpkin seeds\n• 1 Tbsp bread crumbs or gf crumbs or oats or pepitas\n• 1/4 tsp (0.25 tsp) dry thyme\n• 1/4 tsp (0.25 tsp) dry rosemary\n• a generous dash of black pepper\n• 1-2 tsp (1 tsp) nutritional yeast\nInstructions\n1. In a pan, add oil and heat at medium heat. Add the garlic powder, cayenne and salt and cook for a few\nseconds to infuse the oil (or use water/broth).\n2. Add Chard leaves and 1 Tbsp of water, mix well. cover and cook until lightly wilted 2-3 minutes.\n3. Remove Chard from the pan and add to bowl.\n4. Add beans, salt, a Tbsp water and herbs to the same pan.\n5. Cover and Cook for 5-6 minutes. Let sit covered for 2 mins then Remove from pan and add to bowl.\n6. Slice juicy tomatoes or cherry tomatoes and add to bowl.\n7. Add a drizzle of lemon juice and optional extra virgin olive oil.\n8. Grind or blend the pepitas, breadcrumbs with the herbs and nutritional yeast to a coarse mix.\n9. Sprinkle liberally on the bowl and serve warm or cold.\n",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596733471/recipeImages/dbvw9x0f4l8fkbrzljce.jpg",
+      "user": "Amanda",
+      "id": 3
     },
     {
       "userId": 1,
-      "id": 5,
-      "title": "Herby Mushroom Barley",
-      "url": "https://i.pinimg.com/originals/11/f3/07/11f30781ae46d5515b133dcc2a955aa1.jpg",
-      "recipe": "Ingredients\n\n1.5 cups pearl barley\n3 tablespoons Taiwanese Mushroom Powder-really  however much you want/ to taste\n4.5 cups water\n1 pound oyster mushrooms (cremini work too if you can’t find oyster. I would not use anything that was dried)\n3 tablespoons butter\n3 shallots sliced (can swap for half an onion and three cloves garlic)\n2 sprigs fresh rosemary (I use Italian seasoning when I don’t have fresh herbs around.)\n1/2 cup chopped parsley\n1/2 cup chopped cilantro\nJuice of half a lemon or lime\nSalt and pepper to taste\n\nDirections:\n\n1. Add barley, water, and mushroom seasoning to large pot. Bring to a boil. Once boiling cover and simmer for 30 minutes. Remove from heat once cooked. Drain if necessary.\n2. Heat skillet to medium high with some oil, add shallots and cook til browning (5-7 minutes). Remove from skillet.\n3. Add mushrooms with oil to skillet, season with salt and pepper. Cook until browning 5-7 minutes then add butter and rosemary. Cook until you feel like they are done (for me about 10 minutes. It’s really your own preference.)\n4. Combine mushrooms and shallots with barley. Add cilantro and parsley and squeeze lemon juice over. Stir until combined. Then serve.",
-      "user": "Amanda"
-    },
-    {
-      "userId": 1,
-      "id": 6,
       "title": "Mushroom Bourginoun with Mashed Potatoes",
-      "url": "https://www.veganricha.com/wp-content/uploads/2018/10/Vegan-Bourguignon-with-mushrooms-over-Cauliflower-mash-veganricha-9059.jpg",
-      "recipe": "Ingredients\n\nMushroom Bourguignon:\n\n2 tsp oil\n1/2 (0.5 ) medium onion chopped\n4 cloves of garlic finely chopped\n10 oz (8 oz) sliced mushrooms mixed or white or cremini\n1/4 cup (58.75 ml) brandy or whiskey or red wine or use broth\n3/4 cup (75 g) chopped carrots\n1 cup (101 g) chopped celery\n3/4 tsp (0.75 tsp) dried thyme or 1 tbsp fresh\n1/4 tsp (0.25 tsp) garlic powder\n1 tbsp soy sauce ,tamari for gluten-free, coconut aminos for soyfree\n2 tsp tomato paste\n1/2 cup (125 ml) water or broth\n1 tbsp cornstarch or arrowroot starch mixed in 3 tbsp water (you can also add 2 tbsp of the mashed potato mixture to thicken)\n1 cup (30 g) of spinach or greens\n\nPotato Mash:\n\n2 large potato cubed small\n1 tbsp olive oil\n2 to 4 tbsp non dairy milk\n1/4 tsp (0.25 tsp) each salt garlic powder\nblack pepper to taste\n\nInstructions\n\nHeat the Instant Pot on Saute. Add oil. When the oil is hot, add the onion, garlic, mushrooms and a good pinch of salt and give them a quick mix. Cook for 3 to 4 minutes until golden on some edges. Add a tbsp of water if browning too quickly.\nAdd the wine and mix well for a few seconds to cook out the alcohol.\nAdd the carrots, celery, thyme and garlic and mix well. Add the soy sauce, tomato paste, 1/3 tsp salt (if using water or unsalted broth) and water/broth and give it a mix. Cancel saute. You can also add in 1 bay leaf and some rosemary for flavor variation at this point.\nPlace the steamer basket on top of the mushroom mixture. Add potato and cauliflower to it. \nClose the Instant Pot lid. Pressure Cook for 9 to 10 minutes (Manual hi pressure). Add a minute if using larger quantity of either mushroom mix or potatoes, or if doubling.\nLet the pressure release naturally once the cooking is complete. Open the lid and carefully remove the steamer basket.\nPut the pot on saute, Add cornstarch slurry and give it a mix (you can also add 2 tbsp of the mashed potato mixture to thicken). Add spinach or baby kale and black pepper and mix. Bring the mixture to a boil to thicken, then cancel saute. Taste and adjust salt and flavor.\nMeanwhile. Transfer the steamed potato to a bowl and mash roughly. Add garlic powder, salt, pepper, olive oil, non dairy milk  and optionally fresh/dried herbs of choice(eg. thyme, rosemary, chives) and mash well to preferred consistency. \nServe the mash layered with the mushroom bourguignon. Garnish with some fresh thyme or basil and black or white pepper.",
-      "user": "Amanda"
+      "recipe": "• 2 tsp oil\n1/2 (0.5 ) medium onion chopped\n• 4 cloves of garlic finely chopped\n10 oz (8 oz) sliced mushrooms mixed or white or cremini\n1/4 cup (58.75 ml) brandy or whiskey or red wine or use broth\n3/4 cup (75 g) chopped carrots\n• 1 cup (101 g) chopped celery\n3/4 tsp (0.75 tsp) dried thyme or 1 tbsp fresh\n1/4 tsp (0.25 tsp) garlic powder\n1 tbsp soy sauce tamari for gluten-free, coconut aminos for soyfree\n2 tsp tomato paste\n• 1/2 cup (125 ml) water or broth\n• 1 tbsp cornstarch or arrowroot starch mixed in 3 tbsp water (you can also add 2 tbsp of the mashed potato\nmixture to thicken)\n• 1 cup (30 g) of spinach or greens\nPotato Mash:\n• 1 large potato cubed small\n• 1 cup (100 g) cauliflower florets (heaping cup)\n1 tbsp olive oil\n2 to 4 tbsp non dairy milk\n• 1/4 tsp (0.25 tsp) each salt garlic powder\n• black pepper to taste\nInstructions\n1. Heat the Instant Pot on Saute. Add oil. When the oil is hot, add the onion, garlic, mushrooms and a good\npinch of salt and give them a quick mix. Cook for 3 to 4 minutes until golden on some edges. Add a tbsp of\nwater if browning too quickly.\n2. Add the wine and mix well for a few seconds to cook out the alcohol.\n3. Add the carrots, celery, thyme and garlic and mix well. Add the soy sauce, tomato paste, 1/3 tsp salt (if using\nwater or unsalted broth) and water/broth and give it a mix. Cancel saute. You can also add in 1 bay leaf and\nsome rosemary for flavor variation at this point.\n4. Place the steamer basket on top of the mushroom mixture. Add potato and cauliflower to it.\n5. Close the Instant Pot lid. Pressure Cook for 9 to 10 minutes (Manual hi pressure). Add a minute if using\nlarger quantity of either mushroom mix or potatoes, or if doubling.\n6. Let the pressure release naturally once the cooking is complete. Open the lid and carefully remove the\nsteamer basket.\n7. Put the pot on saute, Add cornstarch slurry and give it a mix (you can also add 2 tbsp of the mashed potato\nmixture to thicken). Add spinach or baby kale and black pepper and mix. Bring the mixture to a boil to thicken,\nthen cancel saute. Taste and adjust salt and flavor.\n8. Meanwhile. Transfer the steamed potato and cauliflower to a bowl and mash roughly. Add garlic powder, salt,\npepper, olive oil, non dairy milk and optionally fresh/dried herbs of choice(eg. thyme, rosemary, chives) and\nmash well to preferred consistency.\n9. Serve the mash layered with the mushroom bourguignon. Garnish with some fresh thyme or basil and black or\nwhite pepper.\n",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596733692/recipeImages/i7liayeqwzghk3qfjbrk.jpg",
+      "user": "Amanda",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "title": "Crispy Vegan Smashed Potatoes with Chimichurri",
+      "recipe": "Ingredients\nFor the potatoes\n• 1.5 Ib baby potatoes , yukon gold or white or mix, see notes for regular size potatoes\n• 1 tbsp oil , olive oil or organic safflower or melted vegan butter\n• 1/2 tsp (0.5 tsp) coarse salt\n• 1/2 tsp (0.5 tsp) freshly ground black pepper\nFor the chimichurri\n• 1 cup (60 g) packed parsley or one bunch parsley leaves and tender stems, chopped\n• 1/4 cup (4 g) basil packed or use cilantro\n• 4 cloves (6 cloves) of raw garlic\n• 2 tbsp extra virgin olive oil\njuice of 1 lime\n1 tsp vinegar, apple cider or balsamic or red wine vinegar\n• 1/4 tsp (0.25 tsp) each salt and black pepper\n• tbsp or more avocado for creamyness optional\nInstructions\n1. Cook the potatoes: Add to a pressure cooker with enough water to cover the potatoes. Close the lid and\npressure cook for 6 mins, let the pressure release naturally.\nSaucepan: Add potatoes and tap water(about an inch over the potatoes) to a saucepan. Bring to a boil over\nmedium heat. Continue to cook for 25 mins or until tender.\n2. Drain the potatoes for 5 mins. Brush oil on baking sheet, place potatoes and press with fork or potato masher\nto flatten to about 1/4 inch thick.\n3. Brush oil on the potatoes. Sprinkle salt and pepper generously. (you can also add minced garlic and herbs).\nBake at 400 deg F (205 C) for 25 to 30 mins.\n4. Meanwhile process the chimichurri ingredients in a food processor or blender with a few tbsp of water until\ncoarsely blended. Taste and adjust flavor with salt, lime.\n5. Take the potatoes off the baking dish and serve hot, dressed with chimichurri.\nTo make ahead: Boil the potatoes, flatten, cool and refrigerate for upto 3 days. Make the chimichurri and\nrefrigerate in a closed container for upto 3 days\n",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596743799/recipeImages/ur7qfxt83dymikfaf4re.jpg",
+      "user": "Amanda",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "id": 6,
+      "title": "Berry Crisp",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596751767/recipeImages/gljz8qq3rxoxhh4cy7ju.jpg",
+      "recipe": "Filling:\n\nBag of berries/ fruit--I like the mixed berries from Aldi w/cherries\n1/4 cup flour\nLittle bit of sugar like 1-2tbsp or maple syrup-\nadd more flour if you go that route or it will get\nliquidy\nLemon/lime juice-just a squirt for acidity\n\nTopping:\n\n1/2 Cup butter\n1/4 cup oats\n1/4 pecans or walnuts-chop them up a bit\n1/4 cup brown sugar\n1/4 cup flour plus more as needed\n\nOven at 400 \n\nMix up all the filling ingredients together in\nbaking dish. make sure the berries are coated\nwith flour and there should be a little at the\nbottom to soak up berry juice\n\nMake sure butter is soft (vegan butter always is) mix in all the\ningredients. If it's is not crumbly then add a\nlittle more flour. You may need to add more of\neverything depending on how big the crisp is.\n\nBake for at least 30 min. I usually go for forty if\nthe berries are really frozen when it goes in.\n\nLet it rest for ten before you eat it too so the\njuices will thicken up\n",
+      "user": "Menna"
+    },
+    {
+      "userId": 2,
+      "id": 7,
+      "title": "Herby Mushroom Barley",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596751923/recipeImages/jfnq4nktsi7oekwq0oli.jpg",
+      "recipe": "Ingredients:\n\n1.5 cups pearl barley\n3 tablespoons mushroom seasoning\n4.5 cups water\n1 pound oyster mushrooms\n3 tablespoons butter\n3 shallots sliced\n2 sprigs fresh rosemary\n1/2 cup chopped parsley\n1/2 cup chopped cilantro\nJuice of half a lemon or lime\n\nDirections:\n\n1. Add barley, water, and mushroom\nseasoning to large pot. Bring to a boil.\nOnce boiling cover and simmer for 30\nminutes. Remove from heat once cooked.\nDrain if necessary.\n\n2. Heat skillet to medium high with some oil,\nadd shallots and cook til browning (5-7\nminutes). Remove from skillet.\n\n3. Add mushrooms with oil to skillet, season\nwith salt and pepper. Cook until browning\n5-7 minutes then add butter and\nrosemary. Cook until you feel like they are\ndone (for me about 10 minutes. It's really\nyour own preference.)\n\n4. Combine mushrooms, shallots, and barley together. \nMix in lemon juice, parsley, and cilantro. Serve immediately.\n",
+      "user": "Menna"
+    },
+    {
+      "userId": 2,
+      "id": 8,
+      "title": "Instant Pot Vegan Lentil Chili ",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596752170/recipeImages/p8ocpqnxkccnyomnnqds.jpg",
+      "recipe": "Ingredients\n\n• 1/4 cup (62.5 ml) water or broth\n• 1/2 (0.5 ) onion chopped\n• 4 cloves of garlic chopped\n• 1 jalapeno or 1/4 cup chopped green bell pepper\n1 cup (101 g) chopped celery\n• 1/2 cup (64 g) chopped carrots\n• 1/2 (0.5 ) red bell pepper or green bell pepper chopped\n15 oz can kidney beans or 1.5 cups cooked , or use black beans\n1/2 cup (96 g) dry red lentils quick cooking lentils (masoor dal)\n2 tsp ground cumin or a combination of cumin and coriander\n• 1 to 2 tsp paprika I use a combination of smoked paprika and sweet\n• 1 tsp oregano\n1/2 tsp (0.5 tsp) chipotle chili flakes or powder or ancho chili powder\n• 1 to 2 tsp chili powder blend chili blend not pure chili powder, optional\n• 1/2 tsp (0.5 tsp) each garlic powder and onion powder\n• 1 bay leaf optional\n• 28 oz diced tomato with juices\n1 to 2 tbsp tomato paste\n3/4 tsp (0.75 tsp) salt (less if using salted broth and beans)\n• 1.5 cups (13.23 oz) water or veggie broth\n• lemon juice to taste, cayenne\n• 1/4 cup (4 g) cilantro\n• avocado , hot sauce, vegan sour cream, chopped onion, tortilla strips, other toppings\nblack pepper for heat\n\nInstructions\n\n1. Add water or broth to the instant Pot on Saute when hot. Add onion, garlic and jalapeno. Cook for 2 minutes.\nStir frequently. Add another tbsp water to de-glaze if needed.\n2. Add the veggies and a good dash of salt and mix. Cook for another 2 minutes. (At this point you can add the\ntomatoes and cook them until tender for 3 to 4 mins, stirring occasionally. This adds a deeper flavor profile or\nfollow next step for quicker).\n3. Add the kidney beans, red lentils, spices, tomato, tomato paste, salt and water and give it a good mix to pick\nup any stuck bits. (You can also add other cooked beans at this point. Add some corn, veggies, 1/4 cup\ncoarsely chopped walnuts for texture for variation). Add 1/2 cup more water for thinner consistency or if\ntomatoes weren't as juicy.\n4. Close the lid and pressure cook for 8 to 9 minutes (Manual/Pressure Cook, high pressure). Let the pressure\nrelease naturally. Mix in 1 to 2 tsp lemon juice and half of the cilantro.\n5. Taste and adjust salt, heat and flavor and add more if needed. Serve hot garnished with chopped onion,\njalapeno, cilantro, avocado, hot sauce. See Saucepan instructions in Notes\n",
+      "user": "Menna"
     },
     {
       "userId": 3,
-      "id": 7,
-      "title": "Crunchy Tater Tot Burrito with Grilled Soy Curls and Peppers and Onions",
-      "url": "https://i.pinimg.com/736x/d9/dd/9c/d9dd9cc0186c90e043bd8aff41d326bd--tater-tots-burritos.jpg",
-      "recipe": "Ingredients \n1 bag frozen tater tots\n1 bag frozen roasted pepper and onion blend\n14 ounces soy curls\n1 can refried beans\n3 cloves garlic minced\n1 tbsp Cumin\n1 tbsp Chili powder\n1 tbsp neutral oil\n3 tbsp soy sauce\n1 tsp ground black pepper\n1/2 tsp paprika\n1/2 tsp cayenne pepper\n\n5 8\" Tortillas\n\nDirections\n\nPlace tater tots in air fryer on 400 F for ten minutes. Flip then repeat for 5 minutes.\nHeat skillet to med high heat with oil. add soy curls, peppers and onions and garlic. Cook for 4 minutes or until onions begin to turn translucent. \nAdd soy sauce and all seasoning with 1/4 C water cover skillet and turn head to medium low cook until water and soy sauce have evaporated.\n\nTo Assemble\n\nLayer refried beans with soy curls and veggies and place tater tots on top then wrap burrito and serve.\n",
+      "id": 9,
+      "title": "La Mère Poulard's Puffy Omelet",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596752456/recipeImages/f2v2p8duzwstxcbgubau.jpg",
+      "recipe": "Ingredients\n\n5 eggs\nI teaspoon salt\nFreshly ground pepper\n3 tablespoons unsalted butter\n\nHeat the broiler.\nIn a large stainless-steel or unlined copper\nwith the salt and pepper until mixed. Using an electric beater or a\nballoon whisk, whip the eggs until they triple in volume, 5 to 7\nbowl, whisk the eggs\nminutes.\n\nIn a 9-inch omelet pan or a nonstick frying pan, melt the butter\nover moderately high heat. Add the eggs. Cook for 1 minute then\nremove the pan from the heat for 15 seconds. Return the pan to\nthe heat for another minute. Remove from the heat for 15 seconds.\nReturn the pan to the heat until the omelet has puffed like a\nsoufflé, 30 seconds to 1 minute more.\nSet the pan on a rack just under the broiler for a few seconds-\njust until the top begins to brown lightly. The omelet should be set\nbut not dry inside.\n\nFold the omelet, tipping the pan away from you and turning\nthe edge with a spatula. Slide the omelet onto a warmed platter,\nguiding it to land folded in half. Serve as soon as possible.\nup\n",
       "user": "Jason"
+    },
+    {
+      "userId": 3,
+      "id": 10,
+      "title": "Poached Eggs in Red Wine Sauce",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596752559/recipeImages/i6wvausw7us77te0xeba.jpg",
+      "recipe": "Ingredients\n\n5 tablespoons unsalted butter\n4 pound slab bacon, cut into lardons (page 56); or 4 slices bacon, cut\nacross into %-inch strips\n4 shallots, finely chopped\n3 garlic cloves, finely chopped\n2 leeks, white and light green parts only, thinly sliced\n2 carrots, thinly sliced\nSalt and freshly ground pepper\ncups red wine, preferably a Burgundy\n1 bouquet garnish (1 branch fresh thyme, or ½ teaspoon dried thyme leaves:\n6 parsley stems; and 1 bay leaf, tied in a bundle with kitchen string or\ncheesecloth)\n4 cup marc de Bourgogne (the local brandy) or Cognac\n2 tablespoons all-purpose flour\n\nGARNISH\n2 tablespoons unsalted butter\n4 pound button mushrooms, thinly sliced\nSalt and freshly ground pepper\n16 thin slices narrow French baguette\n1 fat garlic clove, peeled\n2 tablespoons distilled white vinegar\n8 eggs\n\nIn a medium saucepan, heat 3 tablespoons of the butter over low\nheat. Add the bacon and cook gently until golden, 5 to 8 minutes.\nRemove the bacon with a slotted spoon and set aside. To the same\npan, add the shallots, garlic, leeks, carrots, and a little salt and stir\nuntil the vegetables are evenly coated with the butter. Cover the\npan and cook over low heat, stirring occasionally, until tender, 10\nto 15 minutes.\nStir the wine into the vegetables and add the bouquet garnish.\nHeat the marc or Cognac in a small saucepan and light it. (It\nwill flare up so take care.) Pour the flaming liquor into the\nvegetable pan and shake until the flames subside. Cover the pan,\nbring to a boil, then reduce the heat to moderate and simmer for\n25 minutes.",
+      "user": "Jason"
+    },
+    {
+      "userId": 3,
+      "id": 11,
+      "title": "Garlic Bread",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596752811/recipeImages/dz7mzgudyscmczxef8ll.jpg",
+      "recipe": "INGREDIENTS\n\n• 1 Baguette/French Loaf (2 Foot Long/24\"/60cm)\n• 1/2 cup + 1 Tbsp (126g) Vegan Butter\n• 2 tsp Crushed Garlic\n• 2 tsp Fresh Basil (finely chopped)\n• 1 tsp Chives (finely chopped)\n1/2 tsp Sea Salt\n\nINSTRUCTIONS\n\nPreheat the oven to 350°F (180°C).\n Cut the baguette in half. Cut slices through each half loaf.\nMix the vegan butter, crushed garlic, basil, chives and sea salt together in\na bowl and spread inside the cut loaf on both sides of the bread and\nadding some more butter to the tops of the loaves of bread.\nWrap the loaves in tinfoil and bake for 15 minutes.\nEnjoy warm from the oven!\n",
+      "user": "Jason"
+    },
+    {
+      "userId": 4,
+      "title": "Tofu Bulgogi",
+      "recipe": "Ingredients\n• 1 package extra-firm tofu (12 to 16 oz.; used water-packed, not vacuum-packed)\n• 1/2 Asian pear (see notes)\n• 1/2 small onion\n• 4 cloves garlic\n• linch fresh ginger peeled and chopped\n• 1 green onion both green and white parts, chopped\n• 3 tbsp soy sauce or tamari\n• 2 and 1/2 tbsp coconut sugar (or brown sugar)\n• 1 tbsp gochujang, sriracha, or chili garlic paste\n1 tbsp rice vinegar\n• 1 tbsp toasted sesame oil\n• 1 pinch ground black pepper\n• 2 tbsp finely chopped carrot\nInstructions\n1. Place the drained tofu in the freezer overnight. Remove from the freezer and thaw, either at\nroom temperature on the counter, or in the microwave for a faster option.\n2. Press the tofu using towels, paper towels, or a tofu press, for at least 20 minutes. Slice the\ntofu into about 12 pieces.\nPrepare the bulgogi marinade:\n1. In a blender or food processor, blend the pear, onion, garlic, and ginger until relatively\nsmooth (some chunks are okay).\n2. Stir in the chopped green onion, soy sauce, coconut sugar, hot sauce, rice vinegar, sesame\noil, black pepper, and chopped carrot, plus water if needed to thin (it shouldn't be too thick\nor the tofu won't absorb it as well).\n3. Add the pressed tofu to a bowl or container and pour the marinade over it. Let marinate for\nup to 20 minutes (longer and it may start to fall apart).\n4. Preheat the oven to 350 degrees Fahrenheit. Place the tofu slices on a baking sheet lined\nwith parchment paper or a Silpat, lightly sprayed with oil.\n5. Bake for 15 minutes, flip over the tofu, and brush more of the marinade over it. Bake for\nanother 15 minutes. Optionally, broil for 2-3 more minutes to get the edges a little crispy.\n6. Serve hot with brown rice or another grain and cooked veggies.\n",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596753003/recipeImages/imxbyswtwommrfdpllvc.jpg",
+      "user": "Tyler",
+      "id": 12
+    },
+    {
+      "userId": 4,
+      "id": 13,
+      "title": "Vegan Thai Basil Fried Rice",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596753255/recipeImages/h8qumbz3fhpry6yzxih2.jpg",
+      "recipe": "Ingredients\n\nFor the sauce marinade:\n• 2 to 3 Tbsp low sodium tamari or soy sauce\n• 1 Tbsp water\n• 1 Tbsp or more sugar\n2 Tbsp pineapple juice or orange juice\n1/2 tsp (0.5 tsp) garlic powder\n• 1 tsp rice vinegar\n• 1 Tbsp vegan oyster sauce optional\n1 tsp molasses\n• 8 oz (226.8 g) Tempeh cubed to 1/2 inch cubes or use Tofu\n\nFor the Fried Rice:\n• 2 tsp oil\n• 5 cloves of garlic chopped\n1 to 2 hot green or red chilies finely chopped\n1/2 (0.5 ) onion thinly sliced\n1/2 (0.5 ) red bell pepper thinly sliced\n• 1/4 cup (32 g) thinly sliced carrots\n1/2 cup (62 g) other veggies like sliced zucchini mushrooms, broccoli etc\n1/2 cup (50 g) chopped green onions divided\n• 1/2 cup (12 g) thai basil leaves I chop these up for more flavor\n2 cups (316 g) or more cooked rice I use basmati\n• salt and black pepper to taste\n• black pepper or red pepper flakes for garnish\n\nInstructions\n1. If using Tempeh, steam the tempeh for 11 to 12 minutes. Drain. (optional)\n2. Mix all the sauce ingredients in a bowl. Add tempeh or tofu to marinate. (marinate for atleast 15 minutes).\n3. In a skillet, heat oil over medium high heat. When the oil is hot, add garlic and chilies and cook for a minute\nor until just turning golden. Add the bell pepper and mix in. Add onions, zucchini, carrots and other veggies.\nCook for 2 minutes.\n4. Add the sauce with the tempeh. Cover and cook for 2 to 3 minutes or until the sauce thickens slightly. Add\nhalf of the green onions and basil and mix in. Cook for a minute.\n5. Add in the rice, black pepper to taste and toss wellI. Cover and cook for 1-2 minutes. Add more soy sauce if\nneeded and mix in. Taste and adjust salt and spice. Add salt if needed. Garnish with black pepper or red\npepper flakes and green onion or cilantro. Serve hot!\n",
+      "user": "Tyler"
+    },
+    {
+      "userId": 4,
+      "id": 14,
+      "title": "Vegan Chocolate Cake Loaf",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596754152/recipeImages/v4pbf6hmb6rhis8itbis.jpg",
+      "recipe": "Ingredients\n\n2 1/3 cup (80 g) whole wheat pastry flour\n1/4 cup (31.25 g) all purpose flour\n1 Tablespoons flax seed meal\n1 teaspoon baking powder\n2 teaspoons white vinegar\n1/2 (0.5 ) medium ripe apple\n4 tablespoons high fat oil (I used 2 Tbsp organic canola oil and 2 Tbsp Coconut oil)\n5-6 tablespoons (5 tablespoons) raw sugar or equivalent jaggery or other sweetener.\n3 tablespoons cocoa powder (I have organic fair trade unsweetened non alkaline, reduce cocoa powder if you\nlike less dark cake)\n1/4 teaspoon (0.25 teaspoon) salt\n1/2 teaspoon (0.5 teaspoon) cinnamon powder\n1 teaspoon vanilla extract\n6-8 Tablespoons (6 Tablespoons) warm water or non dairy milk\nvegan chocolate chips (optional, I dint use any, you can add some to the batter for melted chips in the cake!)\n\nInstructions\n\n1. In a blender, add chopped apple, flax meal, vinegar, sugar, vanilla extract, oil and 6 Tablespoons warm water.\n2. Blend into a smooth puree and keep aside.\n3. In a bowl, mix the flours, cinnamon, salt, baking powder and cocoa powder.\n4. Add in the apple puree and mix till just about combined. If the mixture doesn't become moist and pasty , add\nmore water. The water content need depends on the water content of the apple. The batter does not need to\nbe smooth and runny.\n5. Grease a mini loaf and pour the batter in it.\n6. Top with some oats and bake in preheated oven at 350 degrees F for 20-25 minutes or until the toothpick\ninserted in the Middle comes out clean.\n7. Or top it off with some chocolate cream.. Blend some avocado, a couple of teaspoons of cocoa powder and\nmaple syrup to get a cream. Adjust sweetness and layer it on the cake!\n",
+      "user": "Tyler"
     }
   ],
   "friends": [
@@ -93,11 +151,6 @@
       "id": 4
     },
     {
-      "currentUserId": 3,
-      "userId": 2,
-      "id": 5
-    },
-    {
       "currentUserId": 1,
       "userId": 2,
       "id": 6
@@ -109,39 +162,122 @@
     },
     {
       "currentUserId": 1,
-      "userId": 5,
-      "id": 8
-    },
-    {
-      "currentUserId": 1,
       "userId": 4,
       "id": 9
+    },
+    {
+      "currentUserId": 4,
+      "userId": 1,
+      "id": 10
+    },
+    {
+      "currentUserId": 4,
+      "userId": 2,
+      "id": 11
+    },
+    {
+      "currentUserId": 2,
+      "userId": 4,
+      "id": 12
+    },
+    {
+      "currentUserId": 2,
+      "userId": 3,
+      "id": 13
+    },
+    {
+      "currentUserId": 2,
+      "userId": 1,
+      "id": 14
+    },
+    {
+      "currentUserId": 3,
+      "userId": 2,
+      "id": 15
+    },
+    {
+      "currentUserId": 4,
+      "userId": 3,
+      "id": 16
+    },
+    {
+      "currentUserId": 4,
+      "userId": 4,
+      "id": 17
     }
   ],
   "notes": [
     {
-      "userId": 1,
-      "recipeId": 7,
-      "note": "Loved the tater tots. Will maybe used roasted potatoes next time.",
-      "user": "Amanda",
-      "date": 1596405006116,
+      "userId": 4,
+      "recipeId": 1,
+      "note": "I can't believe there is bean juice in this, and I don't hate it.",
+      "user": "Tyler",
+      "date": 1596753452198,
       "id": 1
+    },
+    {
+      "userId": 2,
+      "recipeId": 3,
+      "note": "I love this, but I want more carbs. Next go around I think I'll have this with some quinoa or maybe some bread.",
+      "user": "Menna",
+      "date": 1596754820127,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "recipeId": 13,
+      "note": "I think I'll make ahead next time and make some ban chan to go with it.",
+      "user": "Menna",
+      "date": 1596755251729,
+      "id": 3
     },
     {
       "userId": 3,
       "recipeId": 4,
-      "note": "I loved the Berry Crisp. Definitely need the oven at at least 400 F to get browning, and must sit t ocool and gel up juices.",
+      "note": "Not of fan of cauliflower mash. I'll do regular mash next time.",
       "user": "Jason",
-      "date": 1596419409228,
+      "date": 1596755333071,
       "id": 4
     },
     {
-      "userId": 1,
-      "recipeId": 7,
-      "note": "looking good!",
-      "user": "Amanda",
-      "date": 1596468983033,
+      "userId": 3,
+      "recipeId": 8,
+      "note": "Can sub any dark bean for lentils. I like to make with black beans and kidney beans.",
+      "user": "Jason",
+      "date": 1596755379954,
       "id": 5
+    },
+    {
+      "userId": 4,
+      "recipeId": 9,
+      "note": "Looks amazing. Will try but def add in more veggies..eggplant, tomato and onion sound good.",
+      "user": "Tyler",
+      "date": 1596755595620,
+      "id": 6
+    },
+    {
+      "userId": 4,
+      "recipeId": 11,
+      "note": "Definitely needed vegan parm added on top. Broiled for 1 min also",
+      "user": "Tyler",
+      "date": 1596755678076,
+      "id": 7
+    },
+    {
+      "userId": 4,
+      "recipeId": 6,
+      "note": "Such a classic. Absolutely cannot make without cherries.",
+      "user": "Tyler",
+      "date": 1596755727555,
+      "id": 8
+    },
+    {
+      "userId": 4,
+      "recipeId": 14,
+      "note": "subbed vinegar and flax seed meal for 1 tbsp aquafaba and worked great.",
+      "user": "Tyler",
+      "date": 1596755773647,
+      "id": 9
     }
   ]
 }

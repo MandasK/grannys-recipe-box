@@ -1,12 +1,20 @@
 import React from 'react';
 import { Navbar, Nav, Form, Button, FormControl, Image } from 'react-bootstrap';
 import "./Navbar.css"
+import { Redirect} from 'react-router-dom';
 
 const NavBar = (props) => {
 
   const handleLogout = () => {
-    props.clearUser();
-    ;
+    sessionStorage.clear();
+      localStorage.clear();
+  }
+
+   const handleOnClick = (event) => {
+
+    sessionStorage.removeItem('text') 
+    sessionStorage.removeItem('recipeImage')
+    
   }
 
     return(
@@ -19,7 +27,7 @@ const NavBar = (props) => {
   <Navbar.Toggle className="dashToggle" aria-controls="basic-navbar-nav" />
   <Navbar.Collapse className="dashCollapse" id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link className="dashlink" href="/Recipes/New">Add a New Recipe</Nav.Link>
+      <Nav.Link className="dashlink" onClick={handleOnClick} href="/Recipes/New">Add a New Recipe</Nav.Link>
       <Nav.Link className="dashlinkBox" href={`/Recipes/MyRecipeBox/${sessionStorage.activeUserID}`}>My Recipe Box</Nav.Link>
     </Nav>
     <Nav className="mr-auto">

@@ -5,7 +5,7 @@ import APIManager from '../DataCalls/APIManager';
 import NotesList from '../Notes/NoteList'
 import NoteForm from '../Notes/NoteForm'
 import './RecipeDetail.css';
-import NoteCard from '../Notes/NoteCard';
+import NavBar from '../Navbar/Navbar'
 
 
 const RecipeDetail = props => {
@@ -39,10 +39,11 @@ const RecipeDetail = props => {
         if (recipe.title !== undefined) {
         return (
             <>
+            <NavBar {...props} /> 
             <div className="displayRecipeContainer">
             <Card className="displayRecipeCard">
                 <Card.Body className="displayCardBody">
-                <img src={(recipe.url)} alt="Recipe Image" className="displayRecipeCardImage" />
+                <Card.Img src={(recipe.url)} alt="Recipe Image" className="displayRecipeCardImage" />
                 <Card.Title className="displayRecipeCardTitle">{recipe.title}</Card.Title>
                 <Card.Text className="displayRecipeText">{recipe.recipe}</Card.Text>
                 <Row>
@@ -50,9 +51,10 @@ const RecipeDetail = props => {
                 {recipe.userId === parseInt(sessionStorage.activeUserID) ? <Button className="displayRecipeEdit" variant="custom" disabled={isLoading} onClick={() => props.history.push(`/recipes/${props.recipeId}/edit`)}>Edit Recipe</Button> : ""}
                 </Row>
                 <Card.Footer className="noteFooter">
-                    <h5>Notes</h5>
+                <h5 className="noteHeadText">Notes</h5>
                 {parseInt(props.recipeId) === comment.recipe  ?
-                    <NotesList {...props} /> : ""}
+                    <NotesList {...props} />
+                     : ""}
                 {recipe.userId === parseInt(sessionStorage.friendId) ? <NoteForm /> : ""}
                </Card.Footer>
                 </Card.Body>
