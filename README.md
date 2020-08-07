@@ -1,5 +1,5 @@
 
-![Granny's Recipe Box](../src/logo.png)
+![Granny's Recipe Box](./logo.png)
 
 A project from [Amanda King](https://github.com/MandasK) for [NSS Cohort 41](http://nashvillesoftwareschool.com/).
 
