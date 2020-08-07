@@ -12,6 +12,7 @@ margin-left: 2rem;;
     background-color: #F8EEEA;
     width: 150px;
     font-size: 18px;
+    margin-left: 2rem;
 }
 
 .addFriendButton.btn.btn-custom {
@@ -23,18 +24,20 @@ margin-left: 2rem;;
 
 .friendCard.card {
     background-color: #404F47;
+    margin-top: 1rem;
+    border: 2px solid #404F47 !important;
 }
 
 .friendCardText {
-    margin-top: 1rem;
+    margin: 1rem auto;
     color: #F8EEEA;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .goToFriendRecipeButton.btn.btn-custom {
     background-color: #C4828E;
     color: #F8EEEA;
-   margin: 1rem 2rem;
+   margin: 1rem ;
 }
 
 .welcomeFriends {

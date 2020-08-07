@@ -11,14 +11,13 @@ const FriendCard = props => {
     } 
 
     return(
-        <>
+        <Card className="friendCard" style={{ width: "15rem", height: "3rem" }}>
         <Row>
-            
             <Card.Text className="friendCardText">{props.friend.user.userName}</Card.Text>
-            <Button variant="custom" className="goToFriendRecipeButton" onClick={handleOnClick} id={props.friend.userId}>See all Recipes</Button>
-            
+            <Button variant="custom" className="goToFriendRecipeButton" onClick={handleOnClick} id={props.friend.userId}>Recipes</Button>
         </Row>
-        </>
+        </Card>
+
     )
 }
 
