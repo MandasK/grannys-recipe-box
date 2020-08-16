@@ -8,8 +8,8 @@ const NotesList = props => {
    
 
     const getNotes = () => {
-        return APIManager.GetNotesWithRecipes().then(notesFromAPI => {
-            setNotes(notesFromAPI)
+        return APIManager.GetNotesWithRecipes().then(response => {
+            setNotes(response)
         });
     };
 
@@ -26,6 +26,7 @@ const NotesList = props => {
                 {notes.map(note => <NoteCard
                 key={note.id}
                 note={note}
+                setNotes={getNotes}
                 {...props}
                 />)}
             

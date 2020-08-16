@@ -6,29 +6,33 @@
 .OCRCol, .imageCol{
    
     margin-left: 5rem;
+    margin-top: 3rem;
+    border: 1px solid #F8EEEA;
 }
 
 .OCRText {
-    margin-left: 5rem;
+    margin-top: 1.5rem;
+    margin-left: 10rem;
     margin-bottom: 3rem;
     color: #C4828E
 }
 
 .OCRInput {
     margin-bottom: 5rem;
-    margin-left: 6rem;
+    margin-left: 10rem;
     color:#F8EEEA;
 }
 
 .imageText {
-    margin-left: 5rem;
+    margin-top: 1.5rem;
+    margin-left: 10rem;
     margin-bottom: 3rem;
     color: #C4828E
 }
 
 .imageInput {
     margin-bottom: 5rem;
-    margin-left: 6rem;
+    margin-left: 10rem;
     color:#F8EEEA;
 }
 
@@ -37,4 +41,14 @@
     color: #F8EEEA;
     margin-left: 5rem;
     margin-top: 10rem;
+}
+
+.ocrReturnText {
+    white-space: pre-wrap; 
+    margin-bottom: 1rem;
+}
+
+.recipeImage {
+    margin-bottom: 1rem;
+    margin-left: 10rem;
 }

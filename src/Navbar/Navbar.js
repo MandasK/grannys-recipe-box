@@ -17,7 +17,7 @@ const NavBar = (props) => {
   }
 
     return(
-        <Navbar className="dashNav" expand="sm">
+        <Navbar inline className="dashNav" expand="sm">
         <Navbar.Brand className="dashBrand" href="/Dashboard">
         <img className="NavbarLogo" src={require("../birdforlogo.png")} alt="birdlogo" width="50"
         height="50" />{' '}
@@ -27,9 +27,9 @@ const NavBar = (props) => {
   <Navbar.Collapse className="dashCollapse" id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link className="dashlink" onClick={handleOnClick} href="/Recipes/New">Add a New Recipe</Nav.Link>
-      <Nav.Link className="dashlinkBox" href={`/Recipes/MyRecipeBox/${sessionStorage.activeUserID}`}>My Recipe Box</Nav.Link>
-    </Nav>
+      </Nav>
     <Nav className="mr-auto">
+    <Nav.Link className="dashlinkBox" href={`/Recipes/MyRecipeBox/${sessionStorage.activeUserID}`}>My Recipe Box</Nav.Link>
     <Nav.Link className="navButtonLogout" onClick={handleLogout} variant="custom" href="/">Logout</Nav.Link>
     </Nav>
   </Navbar.Collapse>

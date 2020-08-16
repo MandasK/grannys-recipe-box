@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import APIManager from "../DataCalls/APIManager";
-import RecipeToOcr from './RecipeToOcr'
+import NavBar from '../Navbar/Navbar'
 import "./NewRecipeForm.css"
 
 
@@ -31,13 +31,15 @@ const constructNewRecipe = event => {
     
 }
     return (
+        <>
+        
         <div className="recipeFormContainer">
         <Form className="newRecipeForm">
         <Form.Group className="newRecipeTitleGroup" controlId="title">
             <Form.Label className="newRecipeTitleLabel">Recipe Name</Form.Label>
             <Form.Control className="newRecipeTitleControl"
              type="text" 
-            placeholder="Enter name of recipe."
+            placeholder="Enter Name of Recipe."
             onChange={handleFieldChange}
              />
         </Form.Group>
@@ -57,7 +59,7 @@ const constructNewRecipe = event => {
             as="textarea"
             type="text"
             value={sessionStorage.text}
-            placeholder="Enter Recipe Image URL Here"
+            placeholder="Enter Recipe"
             onChange={handleFieldChange}
              />
         </Form.Group>
@@ -72,6 +74,7 @@ const constructNewRecipe = event => {
         </Button>
         </Form>
         </div>
+        </>
     )
 }
 

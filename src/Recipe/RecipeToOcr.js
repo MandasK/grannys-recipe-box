@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Row, Col, Image } from 'react-bootstrap';
+import { Button, Row, Col, Image, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import NavBar from '../Navbar/Navbar'
 import "./RecipeToOcr.css"
@@ -8,6 +8,7 @@ const RecipeToOcr = props => {
     
     
     const [loading, setLoading] = useState(false)
+    const [imageLoading, setImageLoading] = useState(false)
 
     const uploadImage = async e => {
         const files= e.target.files
@@ -34,7 +35,7 @@ const RecipeToOcr = props => {
    
     const uploadRecipeImage = async e => {
         const files= e.target.files
-        setLoading(true)
+        setImageLoading(true)
         const data = new FormData()
         data.append('file', files[0])
         data.append('upload_preset', 'recipes')
@@ -51,30 +52,34 @@ const RecipeToOcr = props => {
         sessionStorage.setItem("recipeImage", recipeImage)
 
        
-        setLoading(false)
+        setImageLoading(false)
     }
     return (
         <>
-        <NavBar {...props} /> 
+       
         <div className="imageContainer">
        <Row className="imageUpload">
            <Col sm={4} className="OCRCol">
            <h4 className="OCRText">Upload Image to Return as Text</h4>
-           <input 
+           <Form>
+           <Form.Group>
+           <Form.File 
            className="OCRInput"
            type="file"
            name="file"
            placeholder="Upload an Image"
            onChange={uploadImage}
            />
-           </Col>
-           <Col className="returnCol">
+           </Form.Group>
+           </Form>
+           {/* </Col>
+           <Col className="returnCol"> */}
            {loading ? (
                <h6 className="loadingOCR">Loading...</h6>
-           ): <p>{sessionStorage.text}</p>}
+           ): <p className="ocrReturnText">{sessionStorage.text}</p>}
            </Col>
-            </Row>
-            <Row className="imageUpload">
+            {/* </Row>
+            <Row className="imageUpload"> */}
             <Col sm={4} className="imageCol">
            <h4 className="imageText">Upload Recipe Image</h4>
            <input 
@@ -84,11 +89,11 @@ const RecipeToOcr = props => {
            placeholder="Upload an Image"
            onChange={uploadRecipeImage}
            />
-           </Col>
-           <Col>
-           {loading ? (
+           {/* </Col>
+           <Col> */}
+           {imageLoading ? (
                <h6 className="loadingImage">Loading...</h6>
-           ): <Image src={(sessionStorage.recipeImage)} alt="Recipe Image" className="recipeImage" style={{ width: "350px", height: "350px" }} />}
+           ): <Image src={(sessionStorage.recipeImage)} className="recipeImage" style={{ width: "350px", height: "350px" }} />}
            </Col>
            <Col>
            <Link to={(`/recipes/NewFinish`)}>

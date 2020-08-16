@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import ApplicationViews from './ApplicationViews';
+import NavBar from "./Navbar/Navbar";
 
 
 
 
 const GrannysRecipeBox = (props) => {
-
   
   
     const isAuthenticated = () => {
@@ -30,7 +30,9 @@ const GrannysRecipeBox = (props) => {
     
     return (
         <>
-          <ApplicationViews setUser={setUser} hasUser={hasUser} />
+         {sessionStorage.activeUserID ? <NavBar {...props} /> : null}
+        <ApplicationViews setUser={setUser} hasUser={hasUser} />
+         
         </>
     )
 }

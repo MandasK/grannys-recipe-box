@@ -39,7 +39,7 @@ const RecipeDetail = props => {
         if (recipe.title !== undefined) {
         return (
             <>
-            <NavBar {...props} /> 
+            
             <div className="displayRecipeContainer">
             <Card className="displayRecipeCard">
                 <Card.Body className="displayCardBody">

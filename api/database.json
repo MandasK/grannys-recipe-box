@@ -23,6 +23,18 @@
       "userName": "Tyler",
       "password": "tyler",
       "id": 4
+    },
+    {
+      "email": "chris@chris.com",
+      "userName": "Chris",
+      "password": "chris",
+      "id": 5
+    },
+    {
+      "email": "shirley@shirley.com",
+      "userName": "Shirley",
+      "password": "shirley",
+      "id": 6
     }
   ],
   "recipes": [
@@ -36,19 +48,19 @@
     },
     {
       "userId": 1,
+      "id": 2,
       "title": "Minestrone Soup",
-      "recipe": "Ingredients\n• 1 tsp olive oil\n• 1/2 cup (80 g) chopped onion chopped\n• 4 cloves garlic chopped\n1/2 cup (50.5 g) chopped celery\n314 cup (96 g) chopped carrots\n• 28 oz (793.79 g) can diced tomato\n• 15 oz (425.24 g) can cannellini beans or other white beans or a combinationof white and kidney beans\n• 1 cup (124 g) chopped zucchini\n• 3 cups (750 ml) water\n1/2 tsp (0.5 tsp) salt\n1/2 tsp (0.5 tsp) oregano\n1/4 tsp (0.25 tsp) thyme\n• 1/4 tsp (0.25 tsp) black pepper\n1/2 cup (118.29 g) elbows or other pasta use gluten-free if needed\n• 1 cup (30 g) baby spinach\n• 3 tbsp chopped basil\n• vegan parmesan for garnish - optional\nInstructions\n1. Heat oil in a large saucepan over medium heat. Add onion and garlic and cook until translucent. 4 mins.\n2. Add celery, carrots and tomato and bring to a boil. 4 to 5 mins.\n3. Add the beans, zucchini, water, salt and spices and cook for 15 to 18 minutes.\n4. Add 1/2 cup pasta and simmer for 12 or more minutes. Taste and adjust salt, herbs and heat.\n5. Fold in spinach and 2 tbsp chopped basil and simmer for another minute. Serve hot garnished with fresh basil\nand vegan parmesan.\n",
       "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596733443/recipeImages/fbhlyl7bq5oqr8x06aus.jpg",
-      "user": "Amanda",
-      "id": 2
+      "recipe": "Ingredients\n\n• 1 tsp olive oil\n• 1/2 cup (80 g) chopped onion chopped\n• 4 cloves garlic chopped\n1/2 cup (50.5 g) chopped celery\n314 cup (96 g) chopped carrots\n• 28 oz (793.79 g) can diced tomato\n• 15 oz (425.24 g) can cannellini beans or other white beans or a combination of white and kidney beans\n• 1 cup (124 g) chopped zucchini\n• 3 cups (750 ml) water\n1/2 tsp (0.5 tsp) salt\n1/2 tsp (0.5 tsp) oregano\n1/4 tsp (0.25 tsp) thyme\n• 1/4 tsp (0.25 tsp) black pepper\n1/2 cup (118.29 g) elbows or other pasta use gluten-free if needed\n• 1 cup (30 g) baby spinach\n• 3 tbsp chopped basil\n• vegan parmesan for garnish - optional\n\nInstructions\n\n1. Heat oil in a large saucepan over medium heat. Add onion and garlic and cook until translucent. 4 mins.\n2. Add celery, carrots and tomato and bring to a boil. 4 to 5 mins.\n3. Add the beans, zucchini, water, salt and spices and cook for 15 to 18 minutes.\n4. Add 1/2 cup pasta and simmer for 12 or more minutes. Taste and adjust salt, herbs and heat.\n5. Fold in spinach and 2 tbsp chopped basil and simmer for another minute. Serve hot garnished with fresh basil\nand vegan parmesan.\n",
+      "user": "Amanda"
     },
     {
       "userId": 1,
+      "id": 3,
       "title": "Herbed White Bean Chard Bowl with Pepita Parmesan",
-      "recipe": "Ingredients\n• 1 tsp oil optional\n1/4 tsp (0.25 tsp) garlic powder\n1/8 tsp (0.13 tsp) cayenne or to taste\na generous pinch of salt\n4-5 (4 - 5 ) large Rainbow chard leaves chopped, fat ribs removed.\n1 can Great Northern beans or other white beans\n1/8 tsp (0.13 tsp) salt or to taste\n1/4 tsp (0.25 tsp) each of dry thyme rosemary, garlic powder\n• Sliced tomatoes or cherry tomatoes\nlemon juice and extra virgin olive oil\nHerbed Pepita Parmesan\n1 Tbsp Pepitas pumpkin seeds\n• 1 Tbsp bread crumbs or gf crumbs or oats or pepitas\n• 1/4 tsp (0.25 tsp) dry thyme\n• 1/4 tsp (0.25 tsp) dry rosemary\n• a generous dash of black pepper\n• 1-2 tsp (1 tsp) nutritional yeast\nInstructions\n1. In a pan, add oil and heat at medium heat. Add the garlic powder, cayenne and salt and cook for a few\nseconds to infuse the oil (or use water/broth).\n2. Add Chard leaves and 1 Tbsp of water, mix well. cover and cook until lightly wilted 2-3 minutes.\n3. Remove Chard from the pan and add to bowl.\n4. Add beans, salt, a Tbsp water and herbs to the same pan.\n5. Cover and Cook for 5-6 minutes. Let sit covered for 2 mins then Remove from pan and add to bowl.\n6. Slice juicy tomatoes or cherry tomatoes and add to bowl.\n7. Add a drizzle of lemon juice and optional extra virgin olive oil.\n8. Grind or blend the pepitas, breadcrumbs with the herbs and nutritional yeast to a coarse mix.\n9. Sprinkle liberally on the bowl and serve warm or cold.\n",
       "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596733471/recipeImages/dbvw9x0f4l8fkbrzljce.jpg",
-      "user": "Amanda",
-      "id": 3
+      "recipe": "Ingredients\n\n1 tsp oil optional\n1/4 tsp (0.25 tsp) garlic powder\n1/8 tsp (0.13 tsp) cayenne or to taste\na generous pinch of salt\n4-5 (4 - 5 ) large Rainbow chard leaves chopped, fat ribs removed.\n1 can Great Northern beans or other white beans\n1/8 tsp (0.13 tsp) salt or to taste\n1/4 tsp (0.25 tsp) each of dry thyme rosemary, garlic powder\n• Sliced tomatoes or cherry tomatoes\nlemon juice and extra virgin olive oil\nHerbed Pepita Parmesan\n1 Tbsp Pepitas pumpkin seeds\n• 1 Tbsp bread crumbs or gf crumbs or oats or pepitas\n• 1/4 tsp (0.25 tsp) dry thyme\n• 1/4 tsp (0.25 tsp) dry rosemary\n• a generous dash of black pepper\n• 1-2 tsp (1 tsp) nutritional yeast\n\nInstructions\n\n1. In a pan, add oil and heat at medium heat. Add the garlic powder, cayenne and salt and cook for a few\nseconds to infuse the oil (or use water/broth).\n2. Add Chard leaves and 1 Tbsp of water, mix well. cover and cook until lightly wilted 2-3 minutes.\n3. Remove Chard from the pan and add to bowl.\n4. Add beans, salt, a Tbsp water and herbs to the same pan.\n5. Cover and Cook for 5-6 minutes. Let sit covered for 2 mins then Remove from pan and add to bowl.\n6. Slice juicy tomatoes or cherry tomatoes and add to bowl.\n7. Add a drizzle of lemon juice and optional extra virgin olive oil.\n8. Grind or blend the pepitas, breadcrumbs with the herbs and nutritional yeast to a coarse mix.\n9. Sprinkle liberally on the bowl and serve warm or cold.\n",
+      "user": "Amanda"
     },
     {
       "userId": 1,
@@ -137,6 +149,14 @@
       "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1596754152/recipeImages/v4pbf6hmb6rhis8itbis.jpg",
       "recipe": "Ingredients\n\n2 1/3 cup (80 g) whole wheat pastry flour\n1/4 cup (31.25 g) all purpose flour\n1 Tablespoons flax seed meal\n1 teaspoon baking powder\n2 teaspoons white vinegar\n1/2 (0.5 ) medium ripe apple\n4 tablespoons high fat oil (I used 2 Tbsp organic canola oil and 2 Tbsp Coconut oil)\n5-6 tablespoons (5 tablespoons) raw sugar or equivalent jaggery or other sweetener.\n3 tablespoons cocoa powder (I have organic fair trade unsweetened non alkaline, reduce cocoa powder if you\nlike less dark cake)\n1/4 teaspoon (0.25 teaspoon) salt\n1/2 teaspoon (0.5 teaspoon) cinnamon powder\n1 teaspoon vanilla extract\n6-8 Tablespoons (6 Tablespoons) warm water or non dairy milk\nvegan chocolate chips (optional, I dint use any, you can add some to the batter for melted chips in the cake!)\n\nInstructions\n\n1. In a blender, add chopped apple, flax meal, vinegar, sugar, vanilla extract, oil and 6 Tablespoons warm water.\n2. Blend into a smooth puree and keep aside.\n3. In a bowl, mix the flours, cinnamon, salt, baking powder and cocoa powder.\n4. Add in the apple puree and mix till just about combined. If the mixture doesn't become moist and pasty , add\nmore water. The water content need depends on the water content of the apple. The batter does not need to\nbe smooth and runny.\n5. Grease a mini loaf and pour the batter in it.\n6. Top with some oats and bake in preheated oven at 350 degrees F for 20-25 minutes or until the toothpick\ninserted in the Middle comes out clean.\n7. Or top it off with some chocolate cream.. Blend some avocado, a couple of teaspoons of cocoa powder and\nmaple syrup to get a cream. Adjust sweetness and layer it on the cake!\n",
       "user": "Tyler"
+    },
+    {
+      "userId": 2,
+      "id": 15,
+      "title": "Tempeh Sesame Thai Noodles",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1597018216/recipeImages/draqloy5d2ar9vn4wgvs.jpg",
+      "recipe": "Ingredients\n\nFor the Tempeh Crumbles:\n\n• 8 oz (226.8 g) tempeh crumbled\n• 2 cloves of garlic minced\n• 1/2 inch ginger minced\n1/3 cup (22.33 g) finely chopped lemongrass\n• 1/4 cup (25 g) chopped green onion (white parts)\n3.5 tbsp soy sauce , tamari for glutenfree\n1.5 tbsp maple syrup\n• 2 to 3 tsp sriracha (optional)\n• 1/3 cup (78.86 ml) water\n1 tsp sesame oil\n\nFor the Sesame noodles:\n\n• 8 oz (226.8 g) rice noodles, pad thai noodles or stir fry rice noodles\n• 2 tbsp soy sauce (tamari for glutenfree)\n2 tsp rice vinegar\n• 1 tsp or more sesame oil\n• 1/4 cup (25 g) green onions (green parts)\n• black pepper or pepper flakes, sriracha, sesame seeds for garnish\nInstructions\n1. Crumble tempeh in a bowl. Add the rest of the ingredients except sesame oil and mix well to combine. Chill\nfor atleast 15 mins or a couple of hours.\n2. Heat a skillet over medium heat. Add 1 tsp sesame oil. Add the tempeh with the marinade and cook over\nmedium high heat until all the marinade is absorbed and some of the tempeh edges get roasted. Press and\nbreak the larger pieces during cooking to make an even crumble. 7 to 10 mins. Remove from the skillet.\n3. Cook the noodles according to package instructions and set aside.\n4. Add the cooked noodles to the same(tempeh) skillet. Add soy sauce, rice vinegar and sesame oil. (Add 1/4\ntsp garlic powder and salt for additional flavor if needed. Add in 2 tbsp smooth peanut or almond butter for\ncreamy sesame noodles). Toss well over medium heat to heat through. If the noodles are drying up, add\nsome lime juice or broth, Taste and adjust flavor.\n5. Distribute noodles in bowls. Add a generous helping of the tempeh. Add blanched veggies or pickled veggies\non the side.\n6. Garnish with chopped green onion, black pepper, sesame seeds or toasted peanuts. Drizzle some lime juice\nor sriracha if needed and serve immediately.\n",
+      "user": "Menna"
     }
   ],
   "friends": [
@@ -204,6 +224,46 @@
       "currentUserId": 4,
       "userId": 4,
       "id": 17
+    },
+    {
+      "currentUserId": 5,
+      "userId": 1,
+      "id": 18
+    },
+    {
+      "currentUserId": 5,
+      "userId": 4,
+      "id": 19
+    },
+    {
+      "currentUserId": 1,
+      "userId": 5,
+      "id": 20
+    },
+    {
+      "currentUserId": 6,
+      "userId": 6,
+      "id": 21
+    },
+    {
+      "currentUserId": 6,
+      "userId": 1,
+      "id": 22
+    },
+    {
+      "currentUserId": 6,
+      "userId": 2,
+      "id": 23
+    },
+    {
+      "currentUserId": 6,
+      "userId": 4,
+      "id": 24
+    },
+    {
+      "currentUserId": 1,
+      "userId": 6,
+      "id": 25
     }
   ],
   "notes": [
@@ -222,14 +282,6 @@
       "user": "Menna",
       "date": 1596754820127,
       "id": 2
-    },
-    {
-      "userId": 2,
-      "recipeId": 13,
-      "note": "I think I'll make ahead next time and make some ban chan to go with it.",
-      "user": "Menna",
-      "date": 1596755251729,
-      "id": 3
     },
     {
       "userId": 3,

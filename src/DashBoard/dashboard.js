@@ -11,8 +11,8 @@ const Dashboard = props => {
   
 
     return (
-        <Container fluid className="dashboardContainer">
-          
+        // <Container fluid className="dashboardContainer">
+          <>
             {/* // Friends list andall recipe in this Row */}
             <Row className="friendsAndDashboardRow">
                 {/* Firends List in thie Col */}
@@ -25,7 +25,8 @@ const Dashboard = props => {
                    <RecipeList {...props} />
                 </Col>
             </Row>
-            </Container>
+            </>
+            // </Container>
     )
 }
 

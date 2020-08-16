@@ -85,3 +85,10 @@
     background-color: #F8EEEA;
     margin-left: 3.5rem;
 }
+
+.displayNoteDelete.btn.btn-custom {
+    background-color: #C4828E;
+    color: #F8EEEA;
+    margin: 0  auto auto 1rem ; 
+    font-size: 12px;
+}

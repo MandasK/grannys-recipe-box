@@ -39,6 +39,7 @@ const Register = (props) => {
                               if(user.userName === userNameInputValue){
                                 credentials.userId = user.id
                                 props.setUser(credentials)
+                                props.history.push("/Dashboard")
                               }
                             })
                           })

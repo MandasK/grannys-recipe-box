@@ -42,7 +42,7 @@ const RecipeList = props => {
     useEffect(() => {
         setFilteredRecipes(
             recipes.filter(recipe =>
-                recipe.recipe.toLowerCase().includes(search.toLowerCase()))
+                recipe.recipe.toLowerCase().includes(search.toLowerCase()) || recipe.user.toLowerCase().includes(search.toLowerCase()))
         )
     }, [search, recipes]);
 
@@ -50,9 +50,9 @@ const RecipeList = props => {
 
     return (
             <>
-            <NavBar {...props} /> 
+            {/* <NavBar {...props} />  */}
             <Form className="dashForm recipeListSearch">
-                <FormControl className="dashcontrol" type="text" placeholder="Search Recipes by Ingredient" onChange={event => setSearch(event.target.value)} className="mr-sm-2" />
+                <FormControl className="dashcontrol" type="text" placeholder="Search Recipes by Ingredient or Author" onChange={event => setSearch(event.target.value)} className="mr-sm-2" />
             </Form>
             <div className="recipeIterate">
             <Row sm={3}>
