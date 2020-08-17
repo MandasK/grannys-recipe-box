@@ -35,7 +35,7 @@ Steps to get started:
 ## Search Functionality
 User can search by ingredient or recipe author. Making it easy to pick a recipe for dinner.
 
-![Search Bar Demo](https://imgflip.com/gif/4bqw83)
+![Search Bar Demo](4bqvwf.gif)
 
 ## Planning Links
 * [ERD](https://dbdiagram.io/d/5f18639a1e6ca02dc1a43e40)
