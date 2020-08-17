@@ -42,7 +42,7 @@ const EditRecipeForm = props => {
 
     return (
         <>
-        <NavBar {...props} /> 
+     
     <div className="recipeFormContainer">
         <Form className="newRecipeForm">
         <Form.Group className="newRecipeTitleGroup" controlId="title">
