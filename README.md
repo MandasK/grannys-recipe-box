@@ -31,6 +31,12 @@ Steps to get started:
 
 (*) Note: this is not true authentication. Email addresses are saved in clear text in the JSON database, and anyone who knows your email could login to see information inside database. Do not store any sensitive information, including, but not limited to birthdates, social security numbers, mother's maiden names, names of first pets, and/or shoe sizes.
 
+
+## Search Functionality
+User can search by ingredient or recipe author. Making it easy to pick a recipe for dinner.
+
+![Search Bar Demo](https://imgflip.com/gif/4bqw83)
+
 ## Planning Links
 * [ERD](https://dbdiagram.io/d/5f18639a1e6ca02dc1a43e40)
 * [Wireframe](https://drive.google.com/file/d/1qB29R5iYr4zS1exdEZkzSw5Rdf1tAfFW/view?usp=sharing)
