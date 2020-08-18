@@ -35,6 +35,12 @@
       "userName": "Shirley",
       "password": "shirley",
       "id": 6
+    },
+    {
+      "email": "handpickt@handpickt.com",
+      "userName": "HandPickt",
+      "password": "hand",
+      "id": 7
     }
   ],
   "recipes": [
@@ -157,6 +163,38 @@
       "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1597018216/recipeImages/draqloy5d2ar9vn4wgvs.jpg",
       "recipe": "Ingredients\n\nFor the Tempeh Crumbles:\n\n• 8 oz (226.8 g) tempeh crumbled\n• 2 cloves of garlic minced\n• 1/2 inch ginger minced\n1/3 cup (22.33 g) finely chopped lemongrass\n• 1/4 cup (25 g) chopped green onion (white parts)\n3.5 tbsp soy sauce , tamari for glutenfree\n1.5 tbsp maple syrup\n• 2 to 3 tsp sriracha (optional)\n• 1/3 cup (78.86 ml) water\n1 tsp sesame oil\n\nFor the Sesame noodles:\n\n• 8 oz (226.8 g) rice noodles, pad thai noodles or stir fry rice noodles\n• 2 tbsp soy sauce (tamari for glutenfree)\n2 tsp rice vinegar\n• 1 tsp or more sesame oil\n• 1/4 cup (25 g) green onions (green parts)\n• black pepper or pepper flakes, sriracha, sesame seeds for garnish\nInstructions\n1. Crumble tempeh in a bowl. Add the rest of the ingredients except sesame oil and mix well to combine. Chill\nfor atleast 15 mins or a couple of hours.\n2. Heat a skillet over medium heat. Add 1 tsp sesame oil. Add the tempeh with the marinade and cook over\nmedium high heat until all the marinade is absorbed and some of the tempeh edges get roasted. Press and\nbreak the larger pieces during cooking to make an even crumble. 7 to 10 mins. Remove from the skillet.\n3. Cook the noodles according to package instructions and set aside.\n4. Add the cooked noodles to the same(tempeh) skillet. Add soy sauce, rice vinegar and sesame oil. (Add 1/4\ntsp garlic powder and salt for additional flavor if needed. Add in 2 tbsp smooth peanut or almond butter for\ncreamy sesame noodles). Toss well over medium heat to heat through. If the noodles are drying up, add\nsome lime juice or broth, Taste and adjust flavor.\n5. Distribute noodles in bowls. Add a generous helping of the tempeh. Add blanched veggies or pickled veggies\non the side.\n6. Garnish with chopped green onion, black pepper, sesame seeds or toasted peanuts. Drizzle some lime juice\nor sriracha if needed and serve immediately.\n",
       "user": "Menna"
+    },
+    {
+      "userId": 7,
+      "title": "HandPickt Summer Harvest Couscous",
+      "recipe": "Ingredients\n\nFOR THE SALAD\n\n1 cup couscous, uncooked (4 cups cooked)\n4–6 cups baby spring greens\n1 cup cherry tomatoes, halved\n1 cup English cucumber, quartered and thinly sliced\n2 nectarines, cored and sliced\n1/4 cup golden raisins\n4 ounces goat cheese\n1 teaspoon extra virgin olive oil\n\nFOR THE VINAIGRETTE\n\n1 tablespoon fresh oregano, roughly minced\n1 tablespoon fresh basil, roughly minced\n1 tablespoon fresh lemon thyme leaves\n1 tablespoon fresh parsley, roughly minced\n1 tablespoon lemon zest\n2 tablespoons fresh lemon juice\n1 tablespoon white wine vinegar\n1/2 cup extra virgin olive oil\nPinch of salt, fresh ground black pepper as desired\n\nINSTRUCTIONS\n\nMake the couscous: Bring 1 1/4 cups of salted water to a boil. Stir in olive oil and couscous. Remove from heat, cover, and let sit for 5 minutes. Remove lid, fluff with a fork, and set aside to cool.\nMake the vinaigrette: In a small bowl, whisk together all ingredients for the vinaigrette. Set aside.\nAssemble the salad: In a large bowl, toss cooked couscous with remaining salad ingredients and vinaigrette. Enjoy!",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1597711874/recipeImages/preyoqldx485ddias4xt.png",
+      "user": "HandPickt",
+      "id": 16
+    },
+    {
+      "userId": 7,
+      "title": "HandPickt Fall Harvest Roasted Vegetable Grain Bowl",
+      "recipe": "Ingredients\n\n1 sweet potato, diced\n16 oz. brussels sprouts, halved\n1 red onion, halved and then quartered\n1 red pepper, cut into 2” cubes\n2 tablespoons olive oil\n1/2 teaspoon ground cinnamon\n1 teaspoon salt\n1 cup of farro\n3 cups of water\n1/2 cup fresh basil\n2 tablespoon red wine vinegar\n2 tablespoon olive oil\n2 teaspoons dijon mustard\n1 garlic clove\nsalt & pepper to taste\n4 eggs\n\nInstructions\n\nPreheat oven to 400 degrees.\nTo a large bowl, add sweet potatoes, brussels sprouts, red onion, red pepper, olive oil, ground cinnamon, and salt. Toss to cover with seasoning.\nBake for 30 minutes.\nIn the meantime add farro and water to a medium size saucepan. Bring to a boil, cover, and simmer for 30 minutes. Drain out excess liquid and set aside.\nIn a small food processor add fresh basil, red wine vinegar, olive oil, dijon mustard, garlic cover, salt, and pepper. Blend until smooth like a dressing.\nAdd the dressing to the farro mixture. Toss to coat the farro.\nServe the roasted vegetables over the farro and top with an egg done to your desired doneness. (I like over easy because I like the yoke runny)",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1597712152/recipeImages/tr3cvfmcfhezoxv4l6w1.png",
+      "user": "HandPickt",
+      "id": 17
+    },
+    {
+      "userId": 7,
+      "title": "HandPickt Winter Harvest Kale Salad",
+      "recipe": "Ingredients\n\n1 tablespoon Dijon mustard\njuice of ½ lemon\n2 cloves garlic, minced\n¼ cup balsamic vinegar\n⅛ teaspoon ground black pepper + more as needed\n¼ teaspoon kosher salt + more as needed\n½ cup olive oil\n2 bunches kale, cleaned and chopped\n3 small to medium cooked red beets, diced\n3 small to medium cooked yellow beets, diced\n2 teaspoons minced fresh thyme\n2 teaspoons minced fresh rosemary\n⅓ cup shelled, roughly chopped pistachios,\n\nDirections\n1. To make the dressing, whisk together the first 6 ingredients in a small bowl. Slowly pour in the olive oil, whisking constantly to emulsify the dressing.\n2. In a large bowl, toss together the chopped kale, diced beets, fresh thyme, and rosemary. Add dressing to taste and season with salt and pepper as needed. Garnish with chopped pistachios.\n\n",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1597712342/recipeImages/mizyx4rkjmws10xfsutw.png",
+      "user": "HandPickt",
+      "id": 18
+    },
+    {
+      "userId": 7,
+      "title": "HandPickt Spring Harvest Bowls with a Dill Shallot Vinaigrette",
+      "recipe": "Ingredients:\n1 bunch asparagus\n1 teaspoon olive oil\n1/2 tablespoon fresh lemon juice\n1/4 teaspoon sea salt\nsmall bunch of red radishes\n2 carrots, shredded\n1 1/2 cups white beans {approximately 1 can}\nsalad greens of your choice, I used arugula\n\nPreheat your oven to 400 degrees.\n\nWash and trim your asparagus, pat dry. Place your asparagus on a baking sheet. Drizzle it with the olive oil and lemon juice, then sprinkle it with sea salt. Roast for 7 minutes on each side. Asparagus should be bright green and slightly browned.\n\nWhile your asparagus is roasted, prep your ingredients and dressing {see below}. Grate your carrots, thinly slice your radishes and rinse your beans. When the asparagus is done, assemble bowls with all the fixings and drizzle with the dill vinaigrette.\n\nDill Shallot Vinaigrette\nIngredients:\n\n3 tablespoons extra virgin olive oil\n2 tablespoons fresh lemon juice\n2 tablespoons finely minced shallots\n1 tablespoon red wine vinegar {or white or apple cider vinegar}\n1 packed tablespoon fresh dill, chopped\n1/2 teaspoon sea salt\n1/4 teaspoon sugar {optional}\nheavy pinch of black pepper\n\nWhisk all the ingredients together in a bowl and voila.\n",
+      "url": "https://res.cloudinary.com/kingamandarae/image/upload/v1597712508/recipeImages/pxkz6l2at9wrtelmv8rp.png",
+      "user": "HandPickt",
+      "id": 19
     }
   ],
   "friends": [
@@ -264,6 +302,11 @@
       "currentUserId": 1,
       "userId": 6,
       "id": 25
+    },
+    {
+      "currentUserId": 1,
+      "userId": 7,
+      "id": 26
     }
   ],
   "notes": [
@@ -338,6 +381,14 @@
       "user": "Amanda",
       "date": 1596764196276,
       "id": 10
+    },
+    {
+      "userId": 1,
+      "recipeId": 6,
+      "note": "made maple syrup need 1/4 c flour",
+      "user": "Amanda",
+      "date": 1597714201015,
+      "id": 11
     }
   ]
 }
