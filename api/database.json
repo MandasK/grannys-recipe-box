@@ -274,11 +274,6 @@
       "id": 19
     },
     {
-      "currentUserId": 1,
-      "userId": 5,
-      "id": 20
-    },
-    {
       "currentUserId": 6,
       "userId": 6,
       "id": 21
@@ -297,11 +292,6 @@
       "currentUserId": 6,
       "userId": 4,
       "id": 24
-    },
-    {
-      "currentUserId": 1,
-      "userId": 6,
-      "id": 25
     },
     {
       "currentUserId": 1,
@@ -381,14 +371,6 @@
       "user": "Amanda",
       "date": 1596764196276,
       "id": 10
-    },
-    {
-      "userId": 1,
-      "recipeId": 6,
-      "note": "made maple syrup need 1/4 c flour",
-      "user": "Amanda",
-      "date": 1597714201015,
-      "id": 11
     }
   ]
 }
